@@ -1,0 +1,2156 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en-us">
+<head>
+   
+    <link rel="stylesheet" href="/static/css/public.css?v=3">
+    <script type="text/javascript" src="/static/js/main.js?v=3"></script>
+    <title>Open Source - Releases</title>
+   
+
+       
+    <meta name="Author" content="Apple Inc.">
+    <meta name="viewport" content="width=1024">
+
+<link rel="stylesheet" href="/static/devimages/base.css" type="text/css" charset="utf-8">
+<link rel="stylesheet" href="/static/devimages/adc.css" type="text/css" charset="utf-8">
+
+
+<script src="/static/js/prototype.js" type="text/javascript" charset="utf-8"></script>
+<script src="/static/js/scriptaculous.js" type="text/javascript" charset="utf-8"></script>
+<script src="/static/devimages/browserdetect.js" type="text/javascript" charset="utf-8"></script>
+<script src="/static/devimages/apple_core.js" type="text/javascript" charset="utf-8"></script>
+<script src="/static/devimages/search_decorator.js" type="text/javascript" charset="utf-8"></script>
+<script src="/static/devimages/adc_core.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8">
+  document.write('<link rel="stylesheet" type="text/css" href="/static/devimages/script.css" media="screen">');
+</script>
+
+
+<link rel="stylesheet" href="/static/devimages/devcenter.css" type="text/css" charset="utf-8">
+
+   
+
+   
+</head>
+
+<body class="overview">
+
+
+
+
+
+
+
+ <div id="container">
+  <div id="header">
+    <div><img alt="Apple Open Source" id="apple-logo" src="/static/images/black_grad_small.png"></div>
+    <div id="apple-logo-text">Apple Open Source</div>
+  </div>
+
+  <div id="ossmain">
+    <div id="content" class="grid2colb box grid2colb-box">
+     <div class="cap boxtop">&nbsp;</div>
+     <div class="column first grid2col">
+      <div class="boxheader">
+	<h2>Releases</h2>
+      </div>
+      <div class="section products">
+      
+       <div class="product release-list">
+	 <img src="/static/images/os_x_mavericks.png" alt="OS X" height="44" class="icon">
+         <h3 class="product-name">OS X</h3>
+
+	 
+	 <div class="release-list-button"
+	      onclick="return toggle_release_list('OS X-10.10')">
+	   <span id="list-header-OS X-10.10"
+		 class="disc-arrow disc-arrow-open">
+	     10.10
+	   </span>
+
+	 </div>
+	 <ul style="" id="release-list-OS X-10.10" class="release-sublist">
+         
+
+	     <li>
+	     
+		<a href="/release/os-x-1010/">
+	     
+	     10.10</a>
+             </li>
+
+	 
+	 </ul>
+	 
+	 
+	 <div class="release-list-button"
+	      onclick="return toggle_release_list('OS X-10.9')">
+	   <span id="list-header-OS X-10.9"
+		 class="disc-arrow disc-arrow-open">
+	     10.9
+	   </span>
+
+	 </div>
+	 <ul style="" id="release-list-OS X-10.9" class="release-sublist">
+         
+
+	     <li>
+	     
+		<a href="/release/os-x-1095/">
+	     
+	     10.9.5</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/os-x-1094/">
+	     
+	     10.9.4</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/os-x-1093/">
+	     
+	     10.9.3</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/os-x-1092/">
+	     
+	     10.9.2</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/os-x-1091/">
+	     
+	     10.9.1</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/os-x-109/">
+	     
+	     10.9</a>
+             </li>
+
+	 
+	 </ul>
+	 
+	 <script type="text/javascript">
+	   hide_release_list('OS X-10.9');
+	 </script>
+	 
+	 
+	 <div class="release-list-button"
+	      onclick="return toggle_release_list('OS X-10.8')">
+	   <span id="list-header-OS X-10.8"
+		 class="disc-arrow disc-arrow-open">
+	     10.8
+	   </span>
+
+	 </div>
+	 <ul style="" id="release-list-OS X-10.8" class="release-sublist">
+         
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1085/">
+	     
+	     10.8.5</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1084/">
+	     
+	     10.8.4</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1083/">
+	     
+	     10.8.3</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1082/">
+	     
+	     10.8.2</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1081/">
+	     
+	     10.8.1</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-108/">
+	     
+	     10.8</a>
+             </li>
+
+	 
+	 </ul>
+	 
+	 <script type="text/javascript">
+	   hide_release_list('OS X-10.8');
+	 </script>
+	 
+	 
+	 <div class="release-list-button"
+	      onclick="return toggle_release_list('OS X-10.7')">
+	   <span id="list-header-OS X-10.7"
+		 class="disc-arrow disc-arrow-open">
+	     10.7
+	   </span>
+
+	 </div>
+	 <ul style="" id="release-list-OS X-10.7" class="release-sublist">
+         
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1075/">
+	     
+	     10.7.5</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1074/">
+	     
+	     10.7.4</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1073/">
+	     
+	     10.7.3</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1072/">
+	     
+	     10.7.2</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1071/">
+	     
+	     10.7.1</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-107/">
+	     
+	     10.7</a>
+             </li>
+
+	 
+	 </ul>
+	 
+	 <script type="text/javascript">
+	   hide_release_list('OS X-10.7');
+	 </script>
+	 
+	 
+	 <div class="release-list-button"
+	      onclick="return toggle_release_list('OS X-10.6')">
+	   <span id="list-header-OS X-10.6"
+		 class="disc-arrow disc-arrow-open">
+	     10.6
+	   </span>
+
+	 </div>
+	 <ul style="" id="release-list-OS X-10.6" class="release-sublist">
+         
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1068/">
+	     
+	     10.6.8</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1067/">
+	     
+	     10.6.7</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1066/">
+	     
+	     10.6.6</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1065/">
+	     
+	     10.6.5</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1064/">
+	     
+	     10.6.4</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1063/">
+	     
+	     10.6.3</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1062/">
+	     
+	     10.6.2</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1061/">
+	     
+	     10.6.1</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-106/">
+	     
+	     10.6</a>
+             </li>
+
+	 
+	 </ul>
+	 
+	 <script type="text/javascript">
+	   hide_release_list('OS X-10.6');
+	 </script>
+	 
+	 
+	 <div class="release-list-button"
+	      onclick="return toggle_release_list('OS X-10.5')">
+	   <span id="list-header-OS X-10.5"
+		 class="disc-arrow disc-arrow-open">
+	     10.5
+	   </span>
+
+	 </div>
+	 <ul style="" id="release-list-OS X-10.5" class="release-sublist">
+         
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1058/">
+	     
+	     10.5.8</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1057/">
+	     
+	     10.5.7</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1056/">
+	     
+	     10.5.6</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1055/">
+	     
+	     10.5.5</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1054/">
+	     
+	     10.5.4</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1053/">
+	     
+	     10.5.3</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1052/">
+	     
+	     10.5.2</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1051/">
+	     
+	     10.5.1</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-105/">
+	     
+	     10.5</a>
+             </li>
+
+	 
+	 </ul>
+	 
+	 <script type="text/javascript">
+	   hide_release_list('OS X-10.5');
+	 </script>
+	 
+	 
+	 <div class="release-list-button"
+	      onclick="return toggle_release_list('OS X-10.4')">
+	   <span id="list-header-OS X-10.4"
+		 class="disc-arrow disc-arrow-open">
+	     10.4
+	   </span>
+
+	 </div>
+	 <ul style="" id="release-list-OS X-10.4" class="release-sublist">
+         
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-10411x86/">
+	     
+	     10.4.11.x86</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-10411ppc/">
+	     
+	     10.4.11.ppc</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-10410x86/">
+	     
+	     10.4.10.x86</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-10410ppc/">
+	     
+	     10.4.10.ppc</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1049x86/">
+	     
+	     10.4.9.x86</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1049ppc/">
+	     
+	     10.4.9.ppc</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1048x86/">
+	     
+	     10.4.8.x86</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1048ppc/">
+	     
+	     10.4.8.ppc</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1047x86/">
+	     
+	     10.4.7.x86</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1047ppc/">
+	     
+	     10.4.7.ppc</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1046x86/">
+	     
+	     10.4.6.x86</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1046ppc/">
+	     
+	     10.4.6.ppc</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1045x86/">
+	     
+	     10.4.5.x86</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1045ppc/">
+	     
+	     10.4.5.ppc</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1044x86/">
+	     
+	     10.4.4.x86</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1044ppc/">
+	     
+	     10.4.4.ppc</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1043/">
+	     
+	     10.4.3</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1042/">
+	     
+	     10.4.2</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1041/">
+	     
+	     10.4.1</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-104/">
+	     
+	     10.4</a>
+             </li>
+
+	 
+	 </ul>
+	 
+	 <script type="text/javascript">
+	   hide_release_list('OS X-10.4');
+	 </script>
+	 
+	 
+	 <div class="release-list-button"
+	      onclick="return toggle_release_list('OS X-10.3')">
+	   <span id="list-header-OS X-10.3"
+		 class="disc-arrow disc-arrow-open">
+	     10.3
+	   </span>
+
+	 </div>
+	 <ul style="" id="release-list-OS X-10.3" class="release-sublist">
+         
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1039/">
+	     
+	     10.3.9</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1038/">
+	     
+	     10.3.8</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1037/">
+	     
+	     10.3.7</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1036/">
+	     
+	     10.3.6</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1035/">
+	     
+	     10.3.5</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1034/">
+	     
+	     10.3.4</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1033/">
+	     
+	     10.3.3</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1032/">
+	     
+	     10.3.2</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1031/">
+	     
+	     10.3.1</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-103/">
+	     
+	     10.3</a>
+             </li>
+
+	 
+	 </ul>
+	 
+	 <script type="text/javascript">
+	   hide_release_list('OS X-10.3');
+	 </script>
+	 
+	 
+	 <div class="release-list-button"
+	      onclick="return toggle_release_list('OS X-10.2')">
+	   <span id="list-header-OS X-10.2"
+		 class="disc-arrow disc-arrow-open">
+	     10.2
+	   </span>
+
+	 </div>
+	 <ul style="" id="release-list-OS X-10.2" class="release-sublist">
+         
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1028g5/">
+	     
+	     10.2.8.G5</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1028/">
+	     
+	     10.2.8</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1027/">
+	     
+	     10.2.7</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1026/">
+	     
+	     10.2.6</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1025/">
+	     
+	     10.2.5</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1024/">
+	     
+	     10.2.4</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1023/">
+	     
+	     10.2.3</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1022/">
+	     
+	     10.2.2</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1021/">
+	     
+	     10.2.1</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-102/">
+	     
+	     10.2</a>
+             </li>
+
+	 
+	 </ul>
+	 
+	 <script type="text/javascript">
+	   hide_release_list('OS X-10.2');
+	 </script>
+	 
+	 
+	 <div class="release-list-button"
+	      onclick="return toggle_release_list('OS X-10.1')">
+	   <span id="list-header-OS X-10.1"
+		 class="disc-arrow disc-arrow-open">
+	     10.1
+	   </span>
+
+	 </div>
+	 <ul style="" id="release-list-OS X-10.1" class="release-sublist">
+         
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1015/">
+	     
+	     10.1.5</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1014/">
+	     
+	     10.1.4</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1013/">
+	     
+	     10.1.3</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1012/">
+	     
+	     10.1.2</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1011/">
+	     
+	     10.1.1</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-101/">
+	     
+	     10.1</a>
+             </li>
+
+	 
+	 </ul>
+	 
+	 <script type="text/javascript">
+	   hide_release_list('OS X-10.1');
+	 </script>
+	 
+	 
+	 <div class="release-list-button"
+	      onclick="return toggle_release_list('OS X-10.0')">
+	   <span id="list-header-OS X-10.0"
+		 class="disc-arrow disc-arrow-open">
+	     10.0
+	   </span>
+
+	 </div>
+	 <ul style="" id="release-list-OS X-10.0" class="release-sublist">
+         
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1004/">
+	     
+	     10.0.4</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1003/">
+	     
+	     10.0.3</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1002/">
+	     
+	     10.0.2</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-1001/">
+	     
+	     10.0.1</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/mac-os-x-100/">
+	     
+	     10.0</a>
+             </li>
+
+	 
+	 </ul>
+	 
+	 <script type="text/javascript">
+	   hide_release_list('OS X-10.0');
+	 </script>
+	 
+	 
+       </div>
+     
+       <div class="product release-list">
+	 <img src="/static/images/xcode.png" alt="Developer Tools" height="44" class="icon">
+         <h3 class="product-name">Developer Tools</h3>
+
+	 
+	 <div class="release-list-button"
+	      onclick="return toggle_release_list('Developer Tools-5.x')">
+	   <span id="list-header-Developer Tools-5.x"
+		 class="disc-arrow disc-arrow-open">
+	     5.x
+	   </span>
+
+	 </div>
+	 <ul style="" id="release-list-Developer Tools-5.x" class="release-sublist">
+         
+
+	     <li>
+	     
+		<a href="/release/developer-tools-51/">
+	     
+	     5.1</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/developer-tools-50/">
+	     
+	     5.0</a>
+             </li>
+
+	 
+	 </ul>
+	 
+	 
+	 <div class="release-list-button"
+	      onclick="return toggle_release_list('Developer Tools-4.x')">
+	   <span id="list-header-Developer Tools-4.x"
+		 class="disc-arrow disc-arrow-open">
+	     4.x
+	   </span>
+
+	 </div>
+	 <ul style="" id="release-list-Developer Tools-4.x" class="release-sublist">
+         
+
+	     <li>
+	     
+		<a href="/release/developer-tools-46/">
+	     
+	     4.6</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/developer-tools-45/">
+	     
+	     4.5</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/developer-tools-44/">
+	     
+	     4.4</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/developer-tools-43/">
+	     
+	     4.3</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/developer-tools-42/">
+	     
+	     4.2</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/developer-tools-41/">
+	     
+	     4.1</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/developer-tools-40/">
+	     
+	     4.0</a>
+             </li>
+
+	 
+	 </ul>
+	 
+	 <script type="text/javascript">
+	   hide_release_list('Developer Tools-4.x');
+	 </script>
+	 
+	 
+	 <div class="release-list-button"
+	      onclick="return toggle_release_list('Developer Tools-3.x')">
+	   <span id="list-header-Developer Tools-3.x"
+		 class="disc-arrow disc-arrow-open">
+	     3.x
+	   </span>
+
+	 </div>
+	 <ul style="" id="release-list-Developer Tools-3.x" class="release-sublist">
+         
+
+	     <li>
+	     
+		<a href="/release/developer-tools-326/">
+	     
+	     3.2.6</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/developer-tools-325/">
+	     
+	     3.2.5</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/developer-tools-324/">
+	     
+	     3.2.4</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/developer-tools-323/">
+	     
+	     3.2.3</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/developer-tools-322/">
+	     
+	     3.2.2</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/developer-tools-321/">
+	     
+	     3.2.1</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+  		<a href="/release/mac-os-x-106/">
+	     
+	     3.2</a>
+             </li>
+
+	 
+	 </ul>
+	 
+	 <script type="text/javascript">
+	   hide_release_list('Developer Tools-3.x');
+	 </script>
+	 
+	 
+	 <div class="release-list-button"
+	      onclick="return toggle_release_list('Developer Tools-3.0/3.1')">
+	   <span id="list-header-Developer Tools-3.0/3.1"
+		 class="disc-arrow disc-arrow-open">
+	     3.0/3.1
+	   </span>
+
+	 </div>
+	 <ul style="" id="release-list-Developer Tools-3.0/3.1" class="release-sublist">
+         
+
+	     <li>
+	     
+		<a href="/release/developer-tools-314/">
+	     
+	     3.1.4</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/developer-tools-313/">
+	     
+	     3.1.3</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/developer-tools-312/">
+	     
+	     3.1.2</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/developer-tools-311/">
+	     
+	     3.1.1</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/developer-tools-31/">
+	     
+	     3.1</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/developer-tools-31b/">
+	     
+	     3.1b</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+  		<a href="/release/mac-os-x-105/">
+	     
+	     3.0</a>
+             </li>
+
+	 
+	 </ul>
+	 
+	 <script type="text/javascript">
+	   hide_release_list('Developer Tools-3.0/3.1');
+	 </script>
+	 
+	 
+	 <div class="release-list-button"
+	      onclick="return toggle_release_list('Developer Tools-2.x')">
+	   <span id="list-header-Developer Tools-2.x"
+		 class="disc-arrow disc-arrow-open">
+	     2.x
+	   </span>
+
+	 </div>
+	 <ul style="" id="release-list-Developer Tools-2.x" class="release-sublist">
+         
+
+	     <li>
+	     
+		<a href="/release/developer-tools-25/">
+	     
+	     2.5</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/developer-tools-241/">
+	     
+	     2.4.1</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/developer-tools-24/">
+	     
+	     2.4</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/developer-tools-23/">
+	     
+	     2.3</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/developer-tools-22/">
+	     
+	     2.2</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/developer-tools-21/">
+	     
+	     2.1</a>
+             </li>
+
+	 
+	 </ul>
+	 
+	 <script type="text/javascript">
+	   hide_release_list('Developer Tools-2.x');
+	 </script>
+	 
+	 
+	 <div class="release-list-button"
+	      onclick="return toggle_release_list('Developer Tools-WWDC2004DP')">
+	   <span id="list-header-Developer Tools-WWDC2004DP"
+		 class="disc-arrow disc-arrow-open">
+	     WWDC2004DP
+	   </span>
+
+	 </div>
+	 <ul style="" id="release-list-Developer Tools-WWDC2004DP" class="release-sublist">
+         
+
+	     <li>
+	     
+		<a href="/release/developer-tools-wwdc2004dp/">
+	     
+	     WWDC2004DP</a>
+             </li>
+
+	 
+	 </ul>
+	 
+	 <script type="text/javascript">
+	   hide_release_list('Developer Tools-WWDC2004DP');
+	 </script>
+	 
+	 
+	 <div class="release-list-button"
+	      onclick="return toggle_release_list('Developer Tools-WWDC2003DP')">
+	   <span id="list-header-Developer Tools-WWDC2003DP"
+		 class="disc-arrow disc-arrow-open">
+	     WWDC2003DP
+	   </span>
+
+	 </div>
+	 <ul style="" id="release-list-Developer Tools-WWDC2003DP" class="release-sublist">
+         
+
+	     <li>
+	     
+		<a href="/release/developer-tools-wwdc2003dp/">
+	     
+	     WWDC2003DP</a>
+             </li>
+
+	 
+	 </ul>
+	 
+	 <script type="text/javascript">
+	   hide_release_list('Developer Tools-WWDC2003DP');
+	 </script>
+	 
+	 
+	 <div class="release-list-button"
+	      onclick="return toggle_release_list('Developer Tools-Dec2001')">
+	   <span id="list-header-Developer Tools-Dec2001"
+		 class="disc-arrow disc-arrow-open">
+	     Dec2001
+	   </span>
+
+	 </div>
+	 <ul style="" id="release-list-Developer Tools-Dec2001" class="release-sublist">
+         
+
+	     <li>
+	     
+		<a href="/release/developer-tools-nov2004/">
+	     
+	     Nov2004</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/developer-tools-15/">
+	     
+	     1.5</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/developer-tools-12/">
+	     
+	     1.2</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/developer-tools-jun2003/">
+	     
+	     Jun2003</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/developer-tools-dec2002/">
+	     
+	     Dec2002</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/developer-tools-may2002/">
+	     
+	     May2002</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/developer-tools-dec2001/">
+	     
+	     Dec2001</a>
+             </li>
+
+	 
+	 </ul>
+	 
+	 <script type="text/javascript">
+	   hide_release_list('Developer Tools-Dec2001');
+	 </script>
+	 
+	 
+       </div>
+     
+       <div class="product release-list">
+	 <img src="/static/images/ios_white_5s.jpg" alt="iOS" height="44" class="icon">
+         <h3 class="product-name">iOS</h3>
+
+	 
+	 <div class="release-list-button"
+	      onclick="return toggle_release_list('iOS-6.1')">
+	   <span id="list-header-iOS-6.1"
+		 class="disc-arrow disc-arrow-open">
+	     6.1
+	   </span>
+
+	 </div>
+	 <ul style="" id="release-list-iOS-6.1" class="release-sublist">
+         
+
+	     <li>
+	     
+		<a href="/release/ios-613/">
+	     
+	     6.1.3</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/ios-61/">
+	     
+	     6.1</a>
+             </li>
+
+	 
+	 </ul>
+	 
+	 
+	 <div class="release-list-button"
+	      onclick="return toggle_release_list('iOS-6.0')">
+	   <span id="list-header-iOS-6.0"
+		 class="disc-arrow disc-arrow-open">
+	     6.0
+	   </span>
+
+	 </div>
+	 <ul style="" id="release-list-iOS-6.0" class="release-sublist">
+         
+
+	     <li>
+	     
+		<a href="/release/ios-601/">
+	     
+	     6.0.1</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/ios-60/">
+	     
+	     6.0</a>
+             </li>
+
+	 
+	 </ul>
+	 
+	 <script type="text/javascript">
+	   hide_release_list('iOS-6.0');
+	 </script>
+	 
+	 
+	 <div class="release-list-button"
+	      onclick="return toggle_release_list('iOS-5.x')">
+	   <span id="list-header-iOS-5.x"
+		 class="disc-arrow disc-arrow-open">
+	     5.x
+	   </span>
+
+	 </div>
+	 <ul style="" id="release-list-iOS-5.x" class="release-sublist">
+         
+
+	     <li>
+	     
+		<a href="/release/ios-511/">
+	     
+	     5.1.1</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/ios-51/">
+	     
+	     5.1</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/ios-50/">
+	     
+	     5.0</a>
+             </li>
+
+	 
+	 </ul>
+	 
+	 <script type="text/javascript">
+	   hide_release_list('iOS-5.x');
+	 </script>
+	 
+	 
+	 <div class="release-list-button"
+	      onclick="return toggle_release_list('iOS-4.x')">
+	   <span id="list-header-iOS-4.x"
+		 class="disc-arrow disc-arrow-open">
+	     4.x
+	   </span>
+
+	 </div>
+	 <ul style="" id="release-list-iOS-4.x" class="release-sublist">
+         
+
+	     <li>
+	     
+		<a href="/release/ios-433/">
+	     
+	     4.3.3</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/ios-432/">
+	     
+	     4.3.2</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/ios-431/">
+	     
+	     4.3.1</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/ios-43/">
+	     
+	     4.3</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/ios-42/">
+	     
+	     4.2</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/ios-41/">
+	     
+	     4.1</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/ios-40/">
+	     
+	     4.0</a>
+             </li>
+
+	 
+	 </ul>
+	 
+	 <script type="text/javascript">
+	   hide_release_list('iOS-4.x');
+	 </script>
+	 
+	 
+	 <div class="release-list-button"
+	      onclick="return toggle_release_list('iOS-3.x')">
+	   <span id="list-header-iOS-3.x"
+		 class="disc-arrow disc-arrow-open">
+	     3.x
+	   </span>
+
+	 </div>
+	 <ul style="" id="release-list-iOS-3.x" class="release-sublist">
+         
+
+	     <li>
+	     
+		<a href="/release/ios-32/">
+	     
+	     3.2</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/iphone-313/">
+	     
+	     3.1.3</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/iphone-312/">
+	     
+	     3.1.2</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/iphone-311/">
+	     
+	     3.1.1</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/iphone-31/">
+	     
+	     3.1</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/iphone-30/">
+	     
+	     3.0</a>
+             </li>
+
+	 
+	 </ul>
+	 
+	 <script type="text/javascript">
+	   hide_release_list('iOS-3.x');
+	 </script>
+	 
+	 
+	 <div class="release-list-button"
+	      onclick="return toggle_release_list('iOS-2.x')">
+	   <span id="list-header-iOS-2.x"
+		 class="disc-arrow disc-arrow-open">
+	     2.x
+	   </span>
+
+	 </div>
+	 <ul style="" id="release-list-iOS-2.x" class="release-sublist">
+         
+
+	     <li>
+	     
+		<a href="/release/iphone-221/">
+	     
+	     2.2.1</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/iphone-22/">
+	     
+	     2.2</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/iphone-21/">
+	     
+	     2.1</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/iphone-20/">
+	     
+	     2.0</a>
+             </li>
+
+	 
+	 </ul>
+	 
+	 <script type="text/javascript">
+	   hide_release_list('iOS-2.x');
+	 </script>
+	 
+	 
+	 <div class="release-list-button"
+	      onclick="return toggle_release_list('iOS-SDK')">
+	   <span id="list-header-iOS-SDK"
+		 class="disc-arrow disc-arrow-open">
+	     SDK
+	   </span>
+
+	 </div>
+	 <ul style="" id="release-list-iOS-SDK" class="release-sublist">
+         
+
+	     <li>
+	     
+		<a href="/release/iphone-sdkb8/">
+	     
+	     SDKb8</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/iphone-sdkb7/">
+	     
+	     SDKb7</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/iphone-sdkb6/">
+	     
+	     SDKb6</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/iphone-sdkb5/">
+	     
+	     SDKb5</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/iphone-sdkb4/">
+	     
+	     SDKb4</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/iphone-sdkb3/">
+	     
+	     SDKb3</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/iphone-sdkb2/">
+	     
+	     SDKb2</a>
+             </li>
+
+	 
+	 </ul>
+	 
+	 <script type="text/javascript">
+	   hide_release_list('iOS-SDK');
+	 </script>
+	 
+	 
+	 <div class="release-list-button"
+	      onclick="return toggle_release_list('iOS-1.x')">
+	   <span id="list-header-iOS-1.x"
+		 class="disc-arrow disc-arrow-open">
+	     1.x
+	   </span>
+
+	 </div>
+	 <ul style="" id="release-list-iOS-1.x" class="release-sublist">
+         
+
+	     <li>
+	     
+		<a href="/release/iphone-114/">
+	     
+	     1.1.4</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/iphone-113/">
+	     
+	     1.1.3</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/iphone-112/">
+	     
+	     1.1.2</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/iphone-111/">
+	     
+	     1.1.1</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/iphone-101/">
+	     
+	     1.0.1</a>
+             </li>
+
+	 
+
+	     <li>
+	     
+		<a href="/release/iphone-10/">
+	     
+	     1.0</a>
+             </li>
+
+	 
+	 </ul>
+	 
+	 <script type="text/javascript">
+	   hide_release_list('iOS-1.x');
+	 </script>
+	 
+	 
+       </div>
+     
+       <div class="product release-list">
+	 <img src="/static/images/osx_server.png" alt="OS X Server" height="44" class="icon">
+         <h3 class="product-name">OS X Server</h3>
+
+	 
+	 <div class="release-list-button"
+	      onclick="return toggle_release_list('OS X Server-3.x')">
+	   <span id="list-header-OS X Server-3.x"
+		 class="disc-arrow disc-arrow-open">
+	     3.x
+	   </span>
+
+	 </div>
+	 <ul style="" id="release-list-OS X Server-3.x" class="release-sublist">
+         
+
+	     <li>
+	     
+		<a href="/release/os-x-server-302/">
+	     
+	     3.0.2</a>
+             </li>
+
+	 
+	 </ul>
+	 
+	 
+	 <div class="release-list-button"
+	      onclick="return toggle_release_list('OS X Server-2.x')">
+	   <span id="list-header-OS X Server-2.x"
+		 class="disc-arrow disc-arrow-open">
+	     2.x
+	   </span>
+
+	 </div>
+	 <ul style="" id="release-list-OS X Server-2.x" class="release-sublist">
+         
+
+	     <li>
+	     
+		<a href="/release/os-x-server-222/">
+	     
+	     2.2.2</a>
+             </li>
+
+	 
+	 </ul>
+	 
+	 <script type="text/javascript">
+	   hide_release_list('OS X Server-2.x');
+	 </script>
+	 
+	 
+       </div>
+     
+     </div>
+      <hr class="clear gradient">
+     <div class="section osslib">
+       <div class="osslib-list">
+	 <img src="/static/devimages/icon_reflib.png" alt="Open Source Reference Library" height="44" class="left icon">
+         <h3 class="product-name">Open Source Reference Library</h3>
+
+	 <p>A collection of useful documents about open source from <a href="https://developer.apple.com/">Apple Developer</a></p>
+
+	 <div class="osslibcolumn column first">
+	   <ul class="icons doc">
+	     <li><a href="https://developer.apple.com/library/mac/#documentation/Security/Conceptual/Security_Overview/Introduction/Introduction.html">Security</a></li>
+	     <li><a href="https://developer.apple.com/library/mac/#documentation/Cocoa/Conceptual/DisplayWebContent/DisplayWebContent.html">WebKit</a></li>
+	     <li><a href="https://developer.apple.com/library/mac/documentation/MacOSX/Conceptual/BPSystemStartup/Chapters/Introduction.html">Daemons & Services</a></li>
+	   </ul>
+	 </div>
+
+	 <div class="osslibcolumn column middle">
+	   <ul class="icons doc">
+	     <li><a href="https://developer.apple.com/library/mac/#documentation/Porting/Conceptual/PortingUnix/intro/intro.html">Porting</a></li>
+	     <li><a href="https://developer.apple.com/library/mac/#documentation/DeviceDrivers/Conceptual/WritingDeviceDriver/Introduction/Intro.html">I/O Kit</a></li>
+	     <li><a href="https://developer.apple.com/library/mac/#documentation/Darwin/Conceptual/KernelProgramming/build/build.html">Kernel</a></li>
+	   </ul>
+	 </div>
+
+	 <div class="osslibcolumn column last">
+	   <ul class="icons doc">
+	     <li><a href="https://developer.apple.com/library/mac/#documentation/MacOSX/Conceptual/OSX_Technology_Overview/SystemFrameworks/SystemFrameworks.html">Frameworks</a></li>
+	     <li><a href="http://xquartz.macosforge.org/trac/wiki">X11</a></li>
+	     <li><a href="https://developer.apple.com/library/mac/#documentation/General/Conceptual/ConcurrencyProgrammingGuide/Introduction/Introduction.html">Concurrency</a></li>
+	   </ul>
+	 </div>
+       </div>
+     </div>
+     </div>
+    
+<div class="column last sidebar">
+     <div class="boxheader">
+       <h2>Related Sites</h2>
+     </div>
+
+      <a target="_blank" href="https://developer.apple.com/opensource/">
+	<h5>Open Source Development</h5>
+	<img id="adc-logo" src="/static/images/comein.png" alt="Open Source Development">
+	<p><br/><br/>Documentation and resources for Bonjour, Java, UNIX, and WebKit.</p>
+      </a>
+      <hr/>
+
+      <a target="_blank" href="http://www.macosforge.org/">
+	<h5>Mac OS Forge</h5>
+	<img id="macosforge-logo" src="/static/images/logo_trans_v1.png" alt="Mac OS Forge">
+	<p><br/><br/>Open development of select OS X projects</p>
+      </a>
+      <hr/>
+
+      <a target="_blank" href="https://developer.apple.com/technologies/">
+	<img class="other-logo" src="/static/devimages/icon_tools_sidebar.png" alt="Developer Tools">
+	<h5>
+	  Tools and Technologies
+	</h5>
+	<p><br/><br/>Why you'll love to develop on your Mac</p>
+      </a>
+      <hr/>
+
+
+      <a target="_blank" href="http://www.apple.com/opensource/">
+	<img class="other-logo" src="/static/images/leopardbox.png" />
+	<h5 class="sidebar-header">
+	  Open Source in OS X
+	</h5>
+	<p><br/><br/>Learn about the 200+ open source projects that ship with OS X</p>
+      </a>
+      <hr/>
+
+      <a href="https://developer.apple.com/library/mac/#documentation/MacOSX/Conceptual/OSX_Technology_Overview/SystemTechnology/SystemTechnology.html">      
+	<img class="other-logo" src="/static/images/opensource_unix.png" alt="Darwin Technologies" />
+	<h5 class="sidebar-header">
+	  Darwin Technologies
+	</h5>
+	<p><br/><br/>Beneath the easy-to-use interface of OS X is a rock-solid, UNIX foundation.</p>
+      </a>
+    </div>
+
+
+     <div class="cap boxbottom">&nbsp;</div>
+     </div>
+
+  </div>
+ </div>
+
+
+
+
+
+<div id="globalfooter" class="gf-980">
+  <p class="gf-buy">Visit the Apple Store <a id="gf-buy-online" href="http://store.apple.com/us">online</a> (1-800-MY-APPLE), find a <a id="gf-buy-retail" href="http://www.apple.com/retail/">retail</a> location or find a <a id="gf-buy-reseller" href="http://www.apple.com/buy/locator/">reseller</a>.</p>
+
+  
+  <p class="gf-links">
+   <a id="gf-links-contact" href="mailto:opensource@apple.com">Contact Us</a> |
+   <a id="gf-links-contact" href="http://lists.apple.com/">Mailing Lists</a>
+  </p>
+  <p class="gf-sosumi">Copyright &copy; 2012 Apple Inc. All rights reserved. <a id="gf-sosumi-legal" href="http://www.apple.com/legal/">Terms of Use</a> | <a id="gf-sosumi-privacy" href="http://www.apple.com/legal/privacy/">Privacy Policy</a></p>
+</div>
+
+
+</body>
+</html>

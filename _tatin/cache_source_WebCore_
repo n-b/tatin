@@ -1,0 +1,188 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en-us">
+<head>
+    <link rel="stylesheet" href="/static/css/public.css?v=3">
+    <title>Source Browser</title>
+    <meta name="Author" content="Apple Inc.">
+    <meta name="viewport" content="width=1024">
+
+<link rel="stylesheet" href="/static/devimages/base.css" type="text/css" charset="utf-8">
+<link rel="stylesheet" href="/static/devimages/adc.css" type="text/css" charset="utf-8">
+
+
+<script src="/static/js/prototype.js" type="text/javascript" charset="utf-8"></script>
+<script src="/static/js/scriptaculous.js" type="text/javascript" charset="utf-8"></script>
+<script src="/static/devimages/browserdetect.js" type="text/javascript" charset="utf-8"></script>
+<script src="/static/devimages/apple_core.js" type="text/javascript" charset="utf-8"></script>
+<script src="/static/devimages/search_decorator.js" type="text/javascript" charset="utf-8"></script>
+<script src="/static/devimages/adc_core.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8">
+  document.write('<link rel="stylesheet" type="text/css" href="/static/devimages/script.css" media="screen">');
+</script>
+
+
+<link rel="stylesheet" href="/static/devimages/devcenter.css" type="text/css" charset="utf-8">
+
+   
+
+    <style>
+      div#header { margin: 0px auto; background}
+      body tbody tr:first-child th {
+             background: transparent url(/static/devimages/box_header_bg.png) repeat-x scroll 0 100%;
+             min-height:15px; 
+             height:18px; 
+             padding:1em 18px; 
+             zoom:1; 
+             line-height: 15px;
+      }
+      #content th a {
+             font-size: 15px;
+             font-weight: normal;
+             margin: 0px;
+             text-shadow: rgb(153,153,153) 0px 1px 2px;
+             color: black;
+      }
+      th hr { display: none; }
+      #ossmain #content.box {
+             padding: 0px !important;
+      }
+      body table tbody tr th[colspan="3"] { height: 10px; }
+      .column, table { width: 980px; margin-left: 1px; margin-right: -20px;}
+      table th { width: 850px; }
+      body table tbody tr td:first-child { padding-left: 15px; width: 20px; }
+      body table tbody tr td[align="right"] { padding-right: 10px; } 
+      body table tbody tr:first-child th:last-child { text-align: right; padding-right: 10px;}
+      body table tr > th:first-child { width: 5px; padding-right: 25px; }
+      body table tr:first-child:hover { background-color: transparent; }
+      body table tr:hover { background-color: #dddddd; }
+    </style>
+    
+</head>
+
+<body class="overview">
+
+ <div id="container">
+  <div id="header">
+   <div>
+    <a href="/">
+     <img alt="Apple Open Source" id="apple-logo" src="/static/images/black_grad_small.png">
+    </a>
+   </div>
+   <div id="apple-logo-text">Source Browser</div>
+  </div>
+
+  <div id="ossmain">
+    <div id="content" class="box grid2colb">
+     <div class="cap boxtop">&nbsp;</div>
+     <div class="column">
+
+<table><tr><th><img src="/icons/blank.gif" alt="[ICO]" height="25"></th><th><a href="?C=N;O=D">Name</a></th><th><a href="?C=S;O=A">Size</a></th></tr><tr><th colspan="3"><hr></th></tr>
+<tr><td valign="top"><a href="/source/"><img src="/icons/back.gif" alt="[DIR]" height="25"></a></td><td><a href="/source/">Parent Directory</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-106/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-106/">WebCore-106/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-125.6.4/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-125.6.4/">WebCore-125.6.4/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-125.8.10/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-125.8.10/">WebCore-125.8.10/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-125.8.12/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-125.8.12/">WebCore-125.8.12/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-125.8.13/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-125.8.13/">WebCore-125.8.13/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-125.8.6/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-125.8.6/">WebCore-125.8.6/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-125/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-125/">WebCore-125/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-1298.37/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-1298.37/">WebCore-1298.37/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-1298.39/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-1298.39/">WebCore-1298.39/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-1298/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-1298/">WebCore-1298/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-146.1/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-146.1/">WebCore-146.1/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-1640.1/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-1640.1/">WebCore-1640.1/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-1640.27/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-1640.27/">WebCore-1640.27/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-1640.28/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-1640.28/">WebCore-1640.28/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-1640/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-1640/">WebCore-1640/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-1A543a/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-1A543a/">WebCore-1A543a/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-1C25/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-1C25/">WebCore-1C25/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-315/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-315/">WebCore-315/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-332/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-332/">WebCore-332/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-351.9.37/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-351.9.37/">WebCore-351.9.37/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-351.9.42/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-351.9.42/">WebCore-351.9.42/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-351.9/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-351.9/">WebCore-351.9/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-3A109a/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-3A109a/">WebCore-3A109a/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-3B48/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-3B48/">WebCore-3B48/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-413/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-413/">WebCore-413/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-415.11/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-415.11/">WebCore-415.11/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-415.5.80/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-415.5.80/">WebCore-415.5.80/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-415.5/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-415.5/">WebCore-415.5/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-416.13/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-416.13/">WebCore-416.13/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-417.17/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-417.17/">WebCore-417.17/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-417.18/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-417.18/">WebCore-417.18/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-417.19/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-417.19/">WebCore-417.19/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-417.24/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-417.24/">WebCore-417.24/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-418.19/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-418.19/">WebCore-418.19/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-418.21/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-418.21/">WebCore-418.21/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-418.22/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-418.22/">WebCore-418.22/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-4523.12/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-4523.12/">WebCore-4523.12/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-4A102/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-4A102/">WebCore-4A102/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-4A93/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-4A93/">WebCore-4A93/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-514/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-514/">WebCore-514/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-528.14/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-528.14/">WebCore-528.14/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-528.15/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-528.15/">WebCore-528.15/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-5523.10.3/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-5523.10.3/">WebCore-5523.10.3/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-5523.15.1/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-5523.15.1/">WebCore-5523.15.1/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-5525.18.1/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-5525.18.1/">WebCore-5525.18.1/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-5525.28.4/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-5525.28.4/">WebCore-5525.28.4/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-5530.19/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-5530.19/">WebCore-5530.19/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-6531.21.8/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-6531.21.8/">WebCore-6531.21.8/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-6531.9/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-6531.9/">WebCore-6531.9/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-658.28/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-658.28/">WebCore-658.28/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-737.5/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-737.5/">WebCore-737.5/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-7533.16/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-7533.16/">WebCore-7533.16/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-7533.18.1/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-7533.18.1/">WebCore-7533.18.1/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-7533.20.24/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-7533.20.24/">WebCore-7533.20.24/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-7533.21.1/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-7533.21.1/">WebCore-7533.21.1/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-7534.48.3/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-7534.48.3/">WebCore-7534.48.3/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-7534.51.22/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-7534.51.22/">WebCore-7534.51.22/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-7534.53.11/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-7534.53.11/">WebCore-7534.53.11/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-7534.56.5/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-7534.56.5/">WebCore-7534.56.5/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-7534.57.7/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-7534.57.7/">WebCore-7534.57.7/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-7536.24/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-7536.24/">WebCore-7536.24/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-7536.26.14/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-7536.26.14/">WebCore-7536.26.14/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-7536.28.10/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-7536.28.10/">WebCore-7536.28.10/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-7536.30.2/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-7536.30.2/">WebCore-7536.30.2/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-7537.70/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-7537.70/">WebCore-7537.70/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-7537.73.13/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-7537.73.13/">WebCore-7537.73.13/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-7537.74.11/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-7537.74.11/">WebCore-7537.74.11/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-7537.75.14/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-7537.75.14/">WebCore-7537.75.14/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-7537.77.4/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-7537.77.4/">WebCore-7537.77.4/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-7537.78.1/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-7537.78.1/">WebCore-7537.78.1/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-7600.1.25/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-7600.1.25/">WebCore-7600.1.25/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-777.1/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-777.1/">WebCore-777.1/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-85.5/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-85.5/">WebCore-85.5/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-855.7.1/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-855.7.1/">WebCore-855.7.1/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-855.7/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-855.7/">WebCore-855.7/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-955.66.1/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-955.66.1/">WebCore-955.66.1/</a></td><td align="right">  - </td></tr>
+<tr><td valign="top"><a href="WebCore-955.66/"><img src="/static/images/icons/folder.png" alt="[DIR]" height="25"></a></td><td><a href="WebCore-955.66/">WebCore-955.66/</a></td><td align="right">  - </td></tr>
+<tr><th colspan="3"><hr></th></tr>
+</table>
+</div>
+<div class="cap boxbottom">&nbsp;</div>
+</div>
+
+ <div id="attributions" class="gf-980">
+  <ol class="release-list-terms">
+  <li class="gf-links">
+    The <a href="http://www.ruby-lang.org/">Ruby</a> logo is copyright &copy; 2006, Yukihiro Matsumoto. It is released under the terms of the <a href="http://creativecommons.org/licenses/by-sa/2.5/">Creative Commons Attribution-ShareAlike 2.5 License</a>.
+  </li>
+  <li class="gf-links">
+    "Python" and the Python logos are trademarks or registered trademarks of the <a href="http://www.python.org/psf/">Python Software Foundation</a>, used with permission by Apple Inc.
+  </li>
+  <li class="gf-links">
+    The PHP logo was obtained from <a href="http://www.php.net/">www.php.net</a>
+  </li>
+  </ol>
+ </div>
+
+
+<div id="globalfooter" class="gf-980">
+  <p class="gf-buy">Visit the Apple Store <a id="gf-buy-online" href="http://www.apple.com/store/">online</a> (1-800-MY-APPLE), find a <a id="gf-buy-retail" href="http://www.apple.com/retail/">retail</a> location or find a <a id="gf-buy-reseller" href="http://www.apple.com/buy/locator/">reseller</a>.</p>
+
+  <p class="gf-links">
+   <a id="gf-links-contact" href="mailto:opensource@apple.com">Contact Us</a> |
+   <a id="gf-links-contact" href="http://lists.apple.com/">Mailing Lists</a>
+  </p>
+
+  <p class="gf-sosumi">Copyright &copy; 2010 Apple Inc. All rights reserved. <a id="gf-sosumi-legal" href="http://www.apple.com/legal/">Terms of Use</a> | <a id="gf-sosumi-privacy" href="http://www.apple.com/legal/privacy/">Privacy Policy</a></p>
+</div>

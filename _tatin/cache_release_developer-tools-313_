@@ -1,0 +1,1545 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en-us">
+<head>
+   
+    <link rel="stylesheet" href="/static/css/public.css?v=3">
+    <script type="text/javascript" src="/static/js/main.js?v=3"></script>
+    <title>Developer Tools 3.1.3 - Source</title>
+   
+
+       
+    <meta name="Author" content="Apple Inc.">
+    <meta name="viewport" content="width=1024">
+
+<link rel="stylesheet" href="/static/devimages/base.css" type="text/css" charset="utf-8">
+<link rel="stylesheet" href="/static/devimages/adc.css" type="text/css" charset="utf-8">
+
+
+<script src="/static/js/prototype.js" type="text/javascript" charset="utf-8"></script>
+<script src="/static/js/scriptaculous.js" type="text/javascript" charset="utf-8"></script>
+<script src="/static/devimages/browserdetect.js" type="text/javascript" charset="utf-8"></script>
+<script src="/static/devimages/apple_core.js" type="text/javascript" charset="utf-8"></script>
+<script src="/static/devimages/search_decorator.js" type="text/javascript" charset="utf-8"></script>
+<script src="/static/devimages/adc_core.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8">
+  document.write('<link rel="stylesheet" type="text/css" href="/static/devimages/script.css" media="screen">');
+</script>
+
+
+<link rel="stylesheet" href="/static/devimages/devcenter.css" type="text/css" charset="utf-8">
+
+   
+
+   
+</head>
+
+<body class="overview">
+
+
+
+
+
+
+
+ <div id="container">
+  <div id="header">
+   <div>
+    <a href="/">
+     <img alt="Apple Open Source" id="apple-logo" src="/static/images/black_grad_small.png">
+    </a>
+   </div>
+   <div id="apple-logo-text">Developer Tools 3.1.3 Source</div>
+  </div>
+
+  <div id="ossmain">
+    <div id="content" class="grid2colb box grid2colb-box">
+     <div class="cap boxtop">&nbsp;</div>
+     <div class="column first grid2col">
+      <div class="boxheader project-list-header">
+	<h2>
+	  <div class="project-updated" onclick="osw_tsort($('project-list'), 0);">&bull;</div>
+	  <div class="project-name" onclick="osw_tsort($('project-list'), 1);">Project</div>
+	  <div class="project-licenses" onclick="osw_tsort($('project-list'), 2);">Licenses</div>
+	  <div class="project-downloads" onclick="osw_tsort($('project-list'), 3);">Downloads</div>
+	</h2>
+      </div>
+      <table id="project-list">
+       
+       <tr class="project-row">
+	 <td class="project-updated">
+	   &bull;
+	 </td>
+         <td class="project-name newproject" >
+	   
+             
+	       <a href="/source/CoreOSMakefiles/CoreOSMakefiles-61/">
+	     
+	   
+	     CoreOSMakefiles-61
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/CoreOSMakefiles/CoreOSMakefiles-61.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/Csu/Csu-76/">
+	     
+	   
+	     Csu-76
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/Csu/Csu-76.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/autoconf/autoconf-14/">
+	     
+	   
+	     autoconf-14
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/autoconf/autoconf-14.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/bison/bison-13/">
+	     
+	   
+	     bison-13
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/bison/bison-13.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   &bull;
+	 </td>
+         <td class="project-name newproject" >
+	   
+             
+	       <a href="/source/bootstrap_cmds/bootstrap_cmds-68/">
+	     
+	   
+	     bootstrap_cmds-68
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/bootstrap_cmds/bootstrap_cmds-68.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   &bull;
+	 </td>
+         <td class="project-name newproject" >
+	   
+             
+	       <a href="/source/bsdmake/bsdmake-24/">
+	     
+	   
+	     bsdmake-24
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/bsdmake/bsdmake-24.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/cctools/cctools-698.1/">
+	     
+	   
+	     cctools-698.1
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/cctools/cctools-698.1.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/cvs/cvs-39/">
+	     
+	   
+	     cvs-39
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/cvs/cvs-39.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/cvs_wrapped/cvs_wrapped-13/">
+	     
+	   
+	     cvs_wrapped-13
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/cvs_wrapped/cvs_wrapped-13.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/cxxfilt/cxxfilt-7/">
+	     
+	   
+	     cxxfilt-7
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+	      <a href="/license/lgpl/">
+		LGPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/cxxfilt/cxxfilt-7.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/developer_cmds/developer_cmds-48/">
+	     
+	   
+	     developer_cmds-48
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/developer_cmds/developer_cmds-48.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   &bull;
+	 </td>
+         <td class="project-name newproject" >
+	   
+             
+	       <a href="/source/distcc/distcc-1160/">
+	     
+	   
+	     distcc-1160
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/distcc/distcc-1160.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/extenTools/extenTools-17.3/">
+	     
+	   
+	     extenTools-17.3
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/extenTools/extenTools-17.3.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/files/files-520.1/">
+	     
+	   
+	     files-520.1
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/files/files-520.1.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/flex/flex-20.3/">
+	     
+	   
+	     flex-20.3
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+            Other
+	  
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/flex/flex-20.3.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   &bull;
+	 </td>
+         <td class="project-name newproject" >
+	   
+             
+	       <a href="/source/gcc/gcc-5493/">
+	     
+	   
+	     gcc-5493
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/gcc/gcc-5493.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   &bull;
+	 </td>
+         <td class="project-name newproject" >
+	   
+             
+	       <a href="/source/gcc_42/gcc_42-5574/">
+	     
+	   
+	     gcc_42-5574
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+	      <a href="/license/lgpl/">
+		LGPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/gcc_42/gcc_42-5574.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/gcc_os/gcc_os-1823/">
+	     
+	   
+	     gcc_os-1823
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/gcc_os/gcc_os-1823.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/gcc_select/gcc_select-66/">
+	     
+	   
+	     gcc_select-66
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/gcc_select/gcc_select-66.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/gccfast/gccfast-1626/">
+	     
+	   
+	     gccfast-1626
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/gccfast/gccfast-1626.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   &bull;
+	 </td>
+         <td class="project-name newproject" >
+	   
+             
+	       <a href="/source/gdb/gdb-966/">
+	     
+	   
+	     gdb-966
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/gdb/gdb-966.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/gdbforcw/gdbforcw-6/">
+	     
+	   
+	     gdbforcw-6
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+	      <a href="/license/lgpl/">
+		LGPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/gdbforcw/gdbforcw-6.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/glibtool/glibtool-12/">
+	     
+	   
+	     glibtool-12
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/glibtool/glibtool-12.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/gm4/gm4-12/">
+	     
+	   
+	     gm4-12
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/gm4/gm4-12.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/gnumake/gnumake-119/">
+	     
+	   
+	     gnumake-119
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/gnumake/gnumake-119.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/gnutar/gnutar-441/">
+	     
+	   
+	     gnutar-441
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/gnutar/gnutar-441.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/gperf/gperf-4/">
+	     
+	   
+	     gperf-4
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/gperf/gperf-4.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/headerdoc/headerdoc-8.6.16/">
+	     
+	   
+	     headerdoc-8.6.16
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/headerdoc/headerdoc-8.6.16.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   &bull;
+	 </td>
+         <td class="project-name newproject" >
+	   
+             
+	       <a href="/source/jam/jam-1160/">
+	     
+	   
+	     jam-1160
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+            Other
+	  
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/jam/jam-1160.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/ld64/ld64-85.2.1/">
+	     
+	   
+	     ld64-85.2.1
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/ld64/ld64-85.2.1.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libstdcxx/libstdcxx-16/">
+	     
+	   
+	     libstdcxx-16
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libstdcxx/libstdcxx-16.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libstdcxx_SUPanWheat/libstdcxx_SUPanWheat-16/">
+	     
+	   
+	     libstdcxx_SUPanWheat-16
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libstdcxx_SUPanWheat/libstdcxx_SUPanWheat-16.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/nasm/nasm-13/">
+	     
+	   
+	     nasm-13
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/lgpl/">
+		LGPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/nasm/nasm-13.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/pb_makefiles/pb_makefiles-1000/">
+	     
+	   
+	     pb_makefiles-1000
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/pb_makefiles/pb_makefiles-1000.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/pbx_jamfiles/pbx_jamfiles-1000/">
+	     
+	   
+	     pbx_jamfiles-1000
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/pbx_jamfiles/pbx_jamfiles-1000.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/project_makefiles/project_makefiles-126/">
+	     
+	   
+	     project_makefiles-126
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/project_makefiles/project_makefiles-126.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/rcs/rcs-13/">
+	     
+	   
+	     rcs-13
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/rcs/rcs-13.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/wxWidgets/wxWidgets-11/">
+	     
+	   
+	     wxWidgets-11
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/lgpl/">
+		LGPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/wxWidgets/wxWidgets-11.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+      </table>
+     </div>
+ 
+    
+<div class="column last sidebar">
+     <div class="boxheader">
+       <h2>Related Sites</h2>
+     </div>
+
+      <a target="_blank" href="http://developer.apple.com/opensource/">
+	<h5>Open Source Development</h5>
+	<img id="adc-logo" src="/static/images/comein.png" alt="Open Source Development">
+	<p><br/><br/>Documentation and resources for Bonjour, Java, UNIX, and WebKit.</p>
+      </a>
+      <hr/>
+
+      <a target="_blank" href="http://macosforge.org/">
+	<h5>Mac OS Forge</h5>
+	<img id="macosforge-logo" src="/static/images/logo_trans_v1.png" alt="Mac OS Forge">
+	<p><br/><br/>Open development of select Mac OS X projects</p>
+      </a>
+      <hr/>
+
+      <a target="_blank" href="http://developer.apple.com/technology/">
+	<img class="other-logo" src="/static/devimages/icon_tools_sidebar.png" alt="Developer Tools">
+	<h5>
+	  Tools and Technologies
+	</h5>
+	<p><br/><br/>Why you'll love to develop on your Mac</p>
+      </a>
+      <hr/>
+
+
+      <a target="_blank" href="http://www.apple.com/opensource/">
+	<img class="other-logo" src="/static/images/leopardbox.png" />
+	<h5 class="sidebar-header">
+	  Open Source in Mac OS X
+	</h5>
+	<p><br/><br/>Learn about the 200+ open source projects that ship with Mac OS X</p>
+      </a>
+      <hr/>
+
+      <a href="http://developer.apple.com/mac/library/documentation/MacOSX/Conceptual/OSX_Technology_Overview/SystemTechnology/SystemTechnology.html">      
+	<img class="other-logo" src="/static/images/opensource_unix.png" alt="Darwin Technologies" />
+	<h5 class="sidebar-header">
+	  Darwin Technologies
+	</h5>
+	<p><br/><br/>Beneath the easy-to-use interface of Mac OS X is a rock-solid, UNIX foundation.</p>
+      </a>
+    </div>
+
+
+     <div class="cap boxbottom">&nbsp;</div>
+    </div>
+
+  <ol class="release-list-terms">
+    <li>
+      You can also view this project list in the following formats:
+      <a href="/plist/developer-tools-313.plist">plist</a>, 
+      <a href="/text/developer-tools-313.txt">text</a>
+    </li>
+
+    
+    <li>
+      Projects which are new or updated in this release have a bullet and are in bold.
+      You can sort the list by clicking on the column headings. 
+    </li>
+    
+
+    <li>
+      To determine the specific license terms that apply to a project, look at the 
+      project source code license headers and the actual license included with the project.
+    </li>
+    <li>
+      Please be advised that unless your final product is also open source, incorporating 
+      open source software containing encryption into your product may make it subject to 
+      U.S. and local country import/export laws.  Please consult with your government 
+      agencies prior to exporting your product.  Information about U.S. encryption export 
+      regulations can be found at the 
+      <a href="http://www.bis.doc.gov/index.php/about-bis">Bureau of Industry and Security</a>
+    </li>
+  </ol>
+  </div>
+
+
+
+
+
+<div id="globalfooter" class="gf-980">
+  <p class="gf-buy">Visit the Apple Store <a id="gf-buy-online" href="http://www.apple.com/store/">online</a> (1-800-MY-APPLE), find a <a id="gf-buy-retail" href="http://www.apple.com/retail/">retail</a> location or find a <a id="gf-buy-reseller" href="http://www.apple.com/buy/locator/">reseller</a>.</p>
+
+  
+  <p class="gf-links">
+   <a id="gf-links-contact" href="mailto:opensource@apple.com">Contact Us</a> |
+   <a id="gf-links-contact" href="http://lists.apple.com/">Mailing Lists</a>
+  </p>
+  <p class="gf-sosumi">Copyright &copy; 2010 Apple Inc. All rights reserved. <a id="gf-sosumi-legal" href="http://www.apple.com/legal/">Terms of Use</a> | <a id="gf-sosumi-privacy" href="http://www.apple.com/legal/privacy/">Privacy Policy</a></p>
+</div>
+
+
+</body>
+</html>

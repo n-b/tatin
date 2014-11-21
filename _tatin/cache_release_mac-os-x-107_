@@ -1,0 +1,10624 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en-us">
+<head>
+   
+    <link rel="stylesheet" href="/static/css/public.css?v=3">
+    <script type="text/javascript" src="/static/js/main.js?v=3"></script>
+    <title>Mac OS X 10.7 - Source</title>
+   
+
+       
+    <meta name="Author" content="Apple Inc.">
+    <meta name="viewport" content="width=1024">
+
+<link rel="stylesheet" href="/static/devimages/base.css" type="text/css" charset="utf-8">
+<link rel="stylesheet" href="/static/devimages/adc.css" type="text/css" charset="utf-8">
+
+
+<script src="/static/js/prototype.js" type="text/javascript" charset="utf-8"></script>
+<script src="/static/js/scriptaculous.js" type="text/javascript" charset="utf-8"></script>
+<script src="/static/devimages/browserdetect.js" type="text/javascript" charset="utf-8"></script>
+<script src="/static/devimages/apple_core.js" type="text/javascript" charset="utf-8"></script>
+<script src="/static/devimages/search_decorator.js" type="text/javascript" charset="utf-8"></script>
+<script src="/static/devimages/adc_core.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8">
+  document.write('<link rel="stylesheet" type="text/css" href="/static/devimages/script.css" media="screen">');
+</script>
+
+
+<link rel="stylesheet" href="/static/devimages/devcenter.css" type="text/css" charset="utf-8">
+
+   
+
+   
+</head>
+
+<body class="overview">
+
+
+
+
+
+
+
+ <div id="container">
+  <div id="header">
+   <div>
+    <a href="/">
+     <img alt="Apple Open Source" id="apple-logo" src="/static/images/black_grad_small.png">
+    </a>
+   </div>
+   <div id="apple-logo-text">Mac OS X 10.7 Source</div>
+  </div>
+
+  <div id="ossmain">
+    <div id="content" class="grid2colb box grid2colb-box">
+     <div class="cap boxtop">&nbsp;</div>
+     <div class="column first grid2col">
+      <div class="boxheader project-list-header">
+	<h2>
+	  <div class="project-updated" onclick="osw_tsort($('project-list'), 0);">&bull;</div>
+	  <div class="project-name" onclick="osw_tsort($('project-list'), 1);">Project</div>
+	  <div class="project-licenses" onclick="osw_tsort($('project-list'), 2);">Licenses</div>
+	  <div class="project-downloads" onclick="osw_tsort($('project-list'), 3);">Downloads</div>
+	</h2>
+      </div>
+      <table id="project-list">
+       
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/AppleFileSystemDriver/AppleFileSystemDriver-14/">
+	     
+	   
+	     AppleFileSystemDriver-14
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/AppleFileSystemDriver/AppleFileSystemDriver-14.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/AppleRAID/AppleRAID-4.0.6/">
+	     
+	   
+	     AppleRAID-4.0.6
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/AppleRAID/AppleRAID-4.0.6.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/AppleUSBCDCDriver/AppleUSBCDCDriver-4115.4.1/">
+	     
+	   
+	     AppleUSBCDCDriver-4115.4.1
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/AppleUSBCDCDriver/AppleUSBCDCDriver-4115.4.1.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/AppleUSBIrDA/AppleUSBIrDA-145.2.4/">
+	     
+	   
+	     AppleUSBIrDA-145.2.4
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/AppleUSBIrDA/AppleUSBIrDA-145.2.4.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/BerkeleyDB/BerkeleyDB-21/">
+	     
+	   
+	     BerkeleyDB-21
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/sleepycat/">
+		Sleepycat
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/BerkeleyDB/BerkeleyDB-21.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/BootCache/BootCache-85/">
+	     
+	   
+	     BootCache-85
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/BootCache/BootCache-85.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/CF/CF-635/">
+	     
+	   
+	     CF-635
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/CF/CF-635.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/CPAN/CPAN-37/">
+	     
+	   
+	     CPAN-37
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/artistic/">
+		Artistic
+	      </a> &nbsp;
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/CPAN/CPAN-37.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/CPANInternal/CPANInternal-105/">
+	     
+	   
+	     CPANInternal-105
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/artistic/">
+		Artistic
+	      </a> &nbsp;
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/CPANInternal/CPANInternal-105.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/ChatServer/ChatServer-373/">
+	     
+	   
+	     ChatServer-373
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+	      <a href="/license/josl/">
+		JOSL
+	      </a> &nbsp;
+	   
+	      <a href="/license/lgpl/">
+		LGPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/ChatServer/ChatServer-373.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/Chess/Chess-110.1.17/">
+	     
+	   
+	     Chess-110.1.17
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/Chess/Chess-110.1.17.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/CommonCrypto/CommonCrypto-55010/">
+	     
+	   
+	     CommonCrypto-55010
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/CommonCrypto/CommonCrypto-55010.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/CrackLib/CrackLib-37765/">
+	     
+	   
+	     CrackLib-37765
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/artistic/">
+		Artistic
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/CrackLib/CrackLib-37765.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/Csu/Csu-79/">
+	     
+	   
+	     Csu-79
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/Csu/Csu-79.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/CyrusIMAP/CyrusIMAP-191/">
+	     
+	   
+	     CyrusIMAP-191
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/CyrusIMAP/CyrusIMAP-191.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/DSTools/DSTools-162/">
+	     
+	   
+	     DSTools-162
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/DSTools/DSTools-162.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/DirectoryService/DirectoryService-655/">
+	     
+	   
+	     DirectoryService-655
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/DirectoryService/DirectoryService-655.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/DiskArbitration/DiskArbitration-229/">
+	     
+	   
+	     DiskArbitration-229
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/DiskArbitration/DiskArbitration-229.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/Heimdal/Heimdal-172.18/">
+	     
+	   
+	     Heimdal-172.18
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/Heimdal/Heimdal-172.18.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/ICU/ICU-461.12/">
+	     
+	   
+	     ICU-461.12
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/mit/">
+		MIT
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/ICU/ICU-461.12.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/IOATAFamily/IOATAFamily-251.0.1/">
+	     
+	   
+	     IOATAFamily-251.0.1
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/IOATAFamily/IOATAFamily-251.0.1.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/IOATAPIProtocolTransport/IOATAPIProtocolTransport-300.0.0/">
+	     
+	   
+	     IOATAPIProtocolTransport-300.0.0
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/IOATAPIProtocolTransport/IOATAPIProtocolTransport-300.0.0.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/IOAudioFamily/IOAudioFamily-183.4.11/">
+	     
+	   
+	     IOAudioFamily-183.4.11
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/IOAudioFamily/IOAudioFamily-183.4.11.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/IOBDStorageFamily/IOBDStorageFamily-10/">
+	     
+	   
+	     IOBDStorageFamily-10
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/IOBDStorageFamily/IOBDStorageFamily-10.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/IOCDStorageFamily/IOCDStorageFamily-49/">
+	     
+	   
+	     IOCDStorageFamily-49
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/IOCDStorageFamily/IOCDStorageFamily-49.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/IODVDStorageFamily/IODVDStorageFamily-30/">
+	     
+	   
+	     IODVDStorageFamily-30
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/IODVDStorageFamily/IODVDStorageFamily-30.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/IOFWDVComponents/IOFWDVComponents-207.4.1/">
+	     
+	   
+	     IOFWDVComponents-207.4.1
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/IOFWDVComponents/IOFWDVComponents-207.4.1.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/IOFireWireAVC/IOFireWireAVC-421.4.0/">
+	     
+	   
+	     IOFireWireAVC-421.4.0
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/IOFireWireAVC/IOFireWireAVC-421.4.0.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/IOFireWireFamily/IOFireWireFamily-443.4.0/">
+	     
+	   
+	     IOFireWireFamily-443.4.0
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/IOFireWireFamily/IOFireWireFamily-443.4.0.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/IOFireWireIP/IOFireWireIP-223.4.0/">
+	     
+	   
+	     IOFireWireIP-223.4.0
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/IOFireWireIP/IOFireWireIP-223.4.0.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/IOFireWireSBP2/IOFireWireSBP2-420.4.1/">
+	     
+	   
+	     IOFireWireSBP2-420.4.1
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/IOFireWireSBP2/IOFireWireSBP2-420.4.1.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/IOFireWireSerialBusProtocolTransport/IOFireWireSerialBusProtocolTransport-210.0.1/">
+	     
+	   
+	     IOFireWireSerialBusProtocolTransport-210.0.1
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/IOFireWireSerialBusProtocolTransport/IOFireWireSerialBusProtocolTransport-210.0.1.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/IOGraphics/IOGraphics-406/">
+	     
+	   
+	     IOGraphics-406
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/IOGraphics/IOGraphics-406.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/IOHIDFamily/IOHIDFamily-368.13/">
+	     
+	   
+	     IOHIDFamily-368.13
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/IOHIDFamily/IOHIDFamily-368.13.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/IOKitTools/IOKitTools-82/">
+	     
+	   
+	     IOKitTools-82
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/IOKitTools/IOKitTools-82.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/IOKitUser/IOKitUser-647.6/">
+	     
+	   
+	     IOKitUser-647.6
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/IOKitUser/IOKitUser-647.6.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/IONetworkingFamily/IONetworkingFamily-75/">
+	     
+	   
+	     IONetworkingFamily-75
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/IONetworkingFamily/IONetworkingFamily-75.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/IOPCIFamily/IOPCIFamily-144/">
+	     
+	   
+	     IOPCIFamily-144
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/IOPCIFamily/IOPCIFamily-144.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/IOSCSIParallelFamily/IOSCSIParallelFamily-250.0.7/">
+	     
+	   
+	     IOSCSIParallelFamily-250.0.7
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/IOSCSIParallelFamily/IOSCSIParallelFamily-250.0.7.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/IOSerialFamily/IOSerialFamily-59/">
+	     
+	   
+	     IOSerialFamily-59
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/IOSerialFamily/IOSerialFamily-59.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/IOStorageFamily/IOStorageFamily-133.2/">
+	     
+	   
+	     IOStorageFamily-133.2
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/IOStorageFamily/IOStorageFamily-133.2.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/IOUSBFamily/IOUSBFamily-440.4.1/">
+	     
+	   
+	     IOUSBFamily-440.4.1
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/IOUSBFamily/IOUSBFamily-440.4.1.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/IOUSBMassStorageClass/IOUSBMassStorageClass-300.0.9/">
+	     
+	   
+	     IOUSBMassStorageClass-300.0.9
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/IOUSBMassStorageClass/IOUSBMassStorageClass-300.0.9.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/JavaScriptCore/JavaScriptCore-7534.48/">
+	     
+	   
+	     JavaScriptCore-7534.48
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+	      <a href="/license/lgpl/">
+		LGPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/JavaScriptCore/JavaScriptCore-7534.48.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/KerberosHelper/KerberosHelper-114/">
+	     
+	   
+	     KerberosHelper-114
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/KerberosHelper/KerberosHelper-114.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/Libc/Libc-763.11/">
+	     
+	   
+	     Libc-763.11
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+	      <a href="/license/mit/">
+		MIT
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/Libc/Libc-763.11.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/Libcpp_kext/Libcpp_kext-8/">
+	     
+	   
+	     Libcpp_kext-8
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/Libcpp_kext/Libcpp_kext-8.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/Libinfo/Libinfo-391/">
+	     
+	   
+	     Libinfo-391
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/Libinfo/Libinfo-391.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/Libm/Libm-2026/">
+	     
+	   
+	     Libm-2026
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/Libm/Libm-2026.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/Libnotify/Libnotify-80/">
+	     
+	   
+	     Libnotify-80
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/Libnotify/Libnotify-80.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/Librpcsvc/Librpcsvc-19/">
+	     
+	   
+	     Librpcsvc-19
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+	      <a href="/license/sunrpc/">
+		SunRPC
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/Librpcsvc/Librpcsvc-19.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/Libsystem/Libsystem-159/">
+	     
+	   
+	     Libsystem-159
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/Libsystem/Libsystem-159.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/Liby/Liby-16/">
+	     
+	   
+	     Liby-16
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/Liby/Liby-16.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/MITKerberosShim/MITKerberosShim-44/">
+	     
+	   
+	     MITKerberosShim-44
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+	      <a href="/license/mit/">
+		MIT
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/MITKerberosShim/MITKerberosShim-44.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/NFS/NFS-63/">
+	     
+	   
+	     NFS-63
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/NFS/NFS-63.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="http://www.openal.org/repos/openal/trunk/OpenAL-MacOSX/">
+             
+	   
+	     OpenAL-46
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/lgpl/">
+		LGPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="http://www.openal.org/openal_webstf/downloads/openal-0.0.8.tar.gz">
+            
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/OpenDirectory/OpenDirectory-144/">
+	     
+	   
+	     OpenDirectory-144
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/OpenDirectory/OpenDirectory-144.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/OpenLDAP/OpenLDAP-186/">
+	     
+	   
+	     OpenLDAP-186
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+            Other
+	  
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/OpenLDAP/OpenLDAP-186.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/OpenPAM/OpenPAM-17/">
+	     
+	   
+	     OpenPAM-17
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/OpenPAM/OpenPAM-17.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/OpenSSH/OpenSSH-166/">
+	     
+	   
+	     OpenSSH-166
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/OpenSSH/OpenSSH-166.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/PostgreSQL/PostgreSQL-23/">
+	     
+	   
+	     PostgreSQL-23
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+            Other
+	  
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/PostgreSQL/PostgreSQL-23.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/PowerManagement/PowerManagement-271.1/">
+	     
+	   
+	     PowerManagement-271.1
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/PowerManagement/PowerManagement-271.1.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/PyRSS2Gen/PyRSS2Gen-5/">
+	     
+	   
+	     PyRSS2Gen-5
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/PyRSS2Gen/PyRSS2Gen-5.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/RubyCocoa/RubyCocoa-76/">
+	     
+	   
+	     RubyCocoa-76
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/lgpl/">
+		LGPL
+	      </a> &nbsp;
+	   
+	      <a href="/license/ruby/">
+		Ruby
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/RubyCocoa/RubyCocoa-76.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/RubyGems/RubyGems-19/">
+	     
+	   
+	     RubyGems-19
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/lgpl/">
+		LGPL
+	      </a> &nbsp;
+	   
+	      <a href="/license/ruby/">
+		Ruby
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/RubyGems/RubyGems-19.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/SQLite/SQLite-117/">
+	     
+	   
+	     SQLite-117
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/public-domain/">
+		Public Domain
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/SQLite/SQLite-117.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/Security/Security-55010/">
+	     
+	   
+	     Security-55010
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/Security/Security-55010.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/SecurityTokend/SecurityTokend-55000/">
+	     
+	   
+	     SecurityTokend-55000
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/SecurityTokend/SecurityTokend-55000.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/SecurityTool/SecurityTool-55001/">
+	     
+	   
+	     SecurityTool-55001
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+	      <a href="/license/mpl/">
+		MPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/SecurityTool/SecurityTool-55001.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/SmartCardServices/SmartCardServices-55000/">
+	     
+	   
+	     SmartCardServices-55000
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+	      <a href="/license/lgpl/">
+		LGPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/SmartCardServices/SmartCardServices-55000.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/SmartcardCCID/SmartcardCCID-55000/">
+	     
+	   
+	     SmartcardCCID-55000
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/lgpl/">
+		LGPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/SmartcardCCID/SmartcardCCID-55000.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/SpamAssassin/SpamAssassin-156/">
+	     
+	   
+	     SpamAssassin-156
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apache/">
+		Apache
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/SpamAssassin/SpamAssassin-156.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/TargetConfig/TargetConfig-14/">
+	     
+	   
+	     TargetConfig-14
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/TargetConfig/TargetConfig-14.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/TimeZoneData/TimeZoneData-35/">
+	     
+	   
+	     TimeZoneData-35
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+            Other
+	  
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/TimeZoneData/TimeZoneData-35.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/Twisted/Twisted-14/">
+	     
+	   
+	     Twisted-14
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/mit/">
+		MIT
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/Twisted/Twisted-14.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/UserNotification/UserNotification-24/">
+	     
+	   
+	     UserNotification-24
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/UserNotification/UserNotification-24.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/WebCore/WebCore-7534.48.3/">
+	     
+	   
+	     WebCore-7534.48.3
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+	      <a href="/license/lgpl/">
+		LGPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/WebCore/WebCore-7534.48.3.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/WebKit/WebKit-7534.48.3/">
+	     
+	   
+	     WebKit-7534.48.3
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+	      <a href="/license/lgpl/">
+		LGPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/WebKit/WebKit-7534.48.3.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/WebmailServer/WebmailServer-10/">
+	     
+	   
+	     WebmailServer-10
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/WebmailServer/WebmailServer-10.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/X11apps/X11apps-44/">
+	     
+	   
+	     X11apps-44
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/mit/">
+		MIT
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/X11apps/X11apps-44.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/X11fonts/X11fonts-14/">
+	     
+	   
+	     X11fonts-14
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/mit/">
+		MIT
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/X11fonts/X11fonts-14.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/X11libs/X11libs-60/">
+	     
+	   
+	     X11libs-60
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/mit/">
+		MIT
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/X11libs/X11libs-60.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/X11misc/X11misc-20/">
+	     
+	   
+	     X11misc-20
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/mit/">
+		MIT
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/X11misc/X11misc-20.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/X11proto/X11proto-57/">
+	     
+	   
+	     X11proto-57
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/mit/">
+		MIT
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/X11proto/X11proto-57.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/X11server/X11server-106.3/">
+	     
+	   
+	     X11server-106.3
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/mit/">
+		MIT
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/X11server/X11server-106.3.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/adv_cmds/adv_cmds-147/">
+	     
+	   
+	     adv_cmds-147
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/adv_cmds/adv_cmds-147.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/amavisd/amavisd-124/">
+	     
+	   
+	     amavisd-124
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/amavisd/amavisd-124.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/apache/apache-769/">
+	     
+	   
+	     apache-769
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apache/">
+		Apache
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/apache/apache-769.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/apache_mod_bonjour/apache_mod_bonjour-15/">
+	     
+	   
+	     apache_mod_bonjour-15
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/apache_mod_bonjour/apache_mod_bonjour-15.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/apache_mod_bw/apache_mod_bw-201/">
+	     
+	   
+	     apache_mod_bw-201
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apache/">
+		Apache
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/apache_mod_bw/apache_mod_bw-201.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/apache_mod_encoding2/apache_mod_encoding2-204/">
+	     
+	   
+	     apache_mod_encoding2-204
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/apache_mod_encoding2/apache_mod_encoding2-204.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/apache_mod_hfs_apple/apache_mod_hfs_apple-11/">
+	     
+	   
+	     apache_mod_hfs_apple-11
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/apache_mod_hfs_apple/apache_mod_hfs_apple-11.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/apache_mod_jk/apache_mod_jk-202/">
+	     
+	   
+	     apache_mod_jk-202
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apache/">
+		Apache
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/apache_mod_jk/apache_mod_jk-202.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/apache_mod_perl/apache_mod_perl-105/">
+	     
+	   
+	     apache_mod_perl-105
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apache/">
+		Apache
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/apache_mod_perl/apache_mod_perl-105.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/apache_mod_php/apache_mod_php-66.1/">
+	     
+	   
+	     apache_mod_php-66.1
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/php/">
+		PHP
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/apache_mod_php/apache_mod_php-66.1.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/apache_mod_python/apache_mod_python-202/">
+	     
+	   
+	     apache_mod_python-202
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apache/">
+		Apache
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/apache_mod_python/apache_mod_python-202.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/apr/apr-26/">
+	     
+	   
+	     apr-26
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apache/">
+		Apache
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/apr/apr-26.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/architecture/architecture-260/">
+	     
+	   
+	     architecture-260
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/architecture/architecture-260.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/autofs/autofs-207/">
+	     
+	   
+	     autofs-207
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+	      <a href="/license/cddl/">
+		CDDL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/autofs/autofs-207.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/awk/awk-18/">
+	     
+	   
+	     awk-18
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+            Other
+	  
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/awk/awk-18.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/bash/bash-84/">
+	     
+	   
+	     bash-84
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/bash/bash-84.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/basic_cmds/basic_cmds-51/">
+	     
+	   
+	     basic_cmds-51
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/basic_cmds/basic_cmds-51.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/bc/bc-21/">
+	     
+	   
+	     bc-21
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/bc/bc-21.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/bind9/bind9-42/">
+	     
+	   
+	     bind9-42
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/bind9/bind9-42.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/bless/bless-76/">
+	     
+	   
+	     bless-76
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/bless/bless-76.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/bootp/bootp-237.2/">
+	     
+	   
+	     bootp-237.2
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/bootp/bootp-237.2.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/bootstrap_cmds/bootstrap_cmds-78/">
+	     
+	   
+	     bootstrap_cmds-78
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/bootstrap_cmds/bootstrap_cmds-78.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/bzip2/bzip2-27/">
+	     
+	   
+	     bzip2-27
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/bzip2/bzip2-27.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/cctools/cctools-800/">
+	     
+	   
+	     cctools-800
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/cctools/cctools-800.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/cddafs/cddafs-250.0.5/">
+	     
+	   
+	     cddafs-250.0.5
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/cddafs/cddafs-250.0.5.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/clamav/clamav-137/">
+	     
+	   
+	     clamav-137
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+            Other
+	  
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/clamav/clamav-137.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/configd/configd-395.6/">
+	     
+	   
+	     configd-395.6
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/configd/configd-395.6.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/copyfile/copyfile-85.1/">
+	     
+	   
+	     copyfile-85.1
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/copyfile/copyfile-85.1.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/cron/cron-35/">
+	     
+	   
+	     cron-35
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+            Other
+	  
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/cron/cron-35.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/crontabs/crontabs-45/">
+	     
+	   
+	     crontabs-45
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+            Other
+	  
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/crontabs/crontabs-45.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/cups/cups-297/">
+	     
+	   
+	     cups-297
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+            Other
+	  
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/cups/cups-297.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/curl/curl-68/">
+	     
+	   
+	     curl-68
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/mit/">
+		MIT
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/curl/curl-68.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/cxxfilt/cxxfilt-9/">
+	     
+	   
+	     cxxfilt-9
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+	      <a href="/license/lgpl/">
+		LGPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/cxxfilt/cxxfilt-9.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/dcerpc/dcerpc-46/">
+	     
+	   
+	     dcerpc-46
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/dcerpc/dcerpc-46.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/developer_cmds/developer_cmds-55/">
+	     
+	   
+	     developer_cmds-55
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/developer_cmds/developer_cmds-55.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/diskdev_cmds/diskdev_cmds-540.1/">
+	     
+	   
+	     diskdev_cmds-540.1
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/diskdev_cmds/diskdev_cmds-540.1.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/disklabel/disklabel-3/">
+	     
+	   
+	     disklabel-3
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/disklabel/disklabel-3.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/doc_cmds/doc_cmds-49/">
+	     
+	   
+	     doc_cmds-49
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/doc_cmds/doc_cmds-49.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/dovecot/dovecot-239/">
+	     
+	   
+	     dovecot-239
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+            Other
+	  
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/dovecot/dovecot-239.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/dtrace/dtrace-90/">
+	     
+	   
+	     dtrace-90
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+	      <a href="/license/cddl/">
+		CDDL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/dtrace/dtrace-90.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/dyld/dyld-195.5/">
+	     
+	   
+	     dyld-195.5
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/dyld/dyld-195.5.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/eap8021x/eap8021x-137/">
+	     
+	   
+	     eap8021x-137
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/eap8021x/eap8021x-137.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/efax/efax-36/">
+	     
+	   
+	     efax-36
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/efax/efax-36.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/emacs/emacs-84/">
+	     
+	   
+	     emacs-84
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/emacs/emacs-84.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/enscript/enscript-15/">
+	     
+	   
+	     enscript-15
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/enscript/enscript-15.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/expat/expat-11/">
+	     
+	   
+	     expat-11
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/mit/">
+		MIT
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/expat/expat-11.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/fetchmail/fetchmail-33/">
+	     
+	   
+	     fetchmail-33
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/fetchmail/fetchmail-33.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/file/file-44/">
+	     
+	   
+	     file-44
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/file/file-44.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/file_cmds/file_cmds-212/">
+	     
+	   
+	     file_cmds-212
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/file_cmds/file_cmds-212.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/files/files-589.3/">
+	     
+	   
+	     files-589.3
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/files/files-589.3.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/flex/flex-26/">
+	     
+	   
+	     flex-26
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+            Other
+	  
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/flex/flex-26.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/freeradius/freeradius-32/">
+	     
+	   
+	     freeradius-32
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+	      <a href="/license/lgpl/">
+		LGPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/freeradius/freeradius-32.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/gnudiff/gnudiff-15/">
+	     
+	   
+	     gnudiff-15
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/gnudiff/gnudiff-15.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/gnuserv/gnuserv-7/">
+	     
+	   
+	     gnuserv-7
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/gnuserv/gnuserv-7.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/gnutar/gnutar-451/">
+	     
+	   
+	     gnutar-451
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/gnutar/gnutar-451.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/gnuzip/gnuzip-30/">
+	     
+	   
+	     gnuzip-30
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/gnuzip/gnuzip-30.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/gpatch/gpatch-2/">
+	     
+	   
+	     gpatch-2
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/gpatch/gpatch-2.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/gpt/gpt-9/">
+	     
+	   
+	     gpt-9
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/gpt/gpt-9.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/graphviz/graphviz-1009/">
+	     
+	   
+	     graphviz-1009
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/att/">
+		AT&amp;T
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/graphviz/graphviz-1009.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/grep/grep-28/">
+	     
+	   
+	     grep-28
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/grep/grep-28.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/groff/groff-35/">
+	     
+	   
+	     groff-35
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/groff/groff-35.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/gssd/gssd-53/">
+	     
+	   
+	     gssd-53
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/gssd/gssd-53.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/headerdoc/headerdoc-8.8.38/">
+	     
+	   
+	     headerdoc-8.8.38
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/headerdoc/headerdoc-8.8.38.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/hfs/hfs-191/">
+	     
+	   
+	     hfs-191
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/hfs/hfs-191.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/hunspell/hunspell-7/">
+	     
+	   
+	     hunspell-7
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/mpl/">
+		MPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/hunspell/hunspell-7.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/iodbc/iodbc-42/">
+	     
+	   
+	     iodbc-42
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+	      <a href="/license/lgpl/">
+		LGPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/iodbc/iodbc-42.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/ipsec/ipsec-146.1/">
+	     
+	   
+	     ipsec-146.1
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/ipsec/ipsec-146.1.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/kext_tools/kext_tools-251/">
+	     
+	   
+	     kext_tools-251
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/kext_tools/kext_tools-251.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/keymgr/keymgr-23/">
+	     
+	   
+	     keymgr-23
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/keymgr/keymgr-23.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/ksh/ksh-16.1/">
+	     
+	   
+	     ksh-16.1
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/cpl/">
+		CPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/ksh/ksh-16.1.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/launchd/launchd-392.18/">
+	     
+	   
+	     launchd-392.18
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apache/">
+		Apache
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/launchd/launchd-392.18.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/less/less-23/">
+	     
+	   
+	     less-23
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/less/less-23.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libarchive/libarchive-23/">
+	     
+	   
+	     libarchive-23
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libarchive/libarchive-23.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libauto/libauto-179/">
+	     
+	   
+	     libauto-179
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apache/">
+		Apache
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libauto/libauto-179.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libclosure/libclosure-53/">
+	     
+	   
+	     libclosure-53
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/mit/">
+		MIT
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libclosure/libclosure-53.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libcppabi/libcppabi-14/">
+	     
+	   
+	     libcppabi-14
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libcppabi/libcppabi-14.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libdispatch/libdispatch-187.5/">
+	     
+	   
+	     libdispatch-187.5
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apache/">
+		Apache
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libdispatch/libdispatch-187.5.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libedit/libedit-28/">
+	     
+	   
+	     libedit-28
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libedit/libedit-28.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libevent/libevent-2/">
+	     
+	   
+	     libevent-2
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libevent/libevent-2.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libffi/libffi-18/">
+	     
+	   
+	     libffi-18
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/mit/">
+		MIT
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libffi/libffi-18.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libfs/libfs-12/">
+	     
+	   
+	     libfs-12
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libfs/libfs-12.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libgcc/libgcc-13/">
+	     
+	   
+	     libgcc-13
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libgcc/libgcc-13.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libiconv/libiconv-31/">
+	     
+	   
+	     libiconv-31
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/lgpl/">
+		LGPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libiconv/libiconv-31.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libmd/libmd-3/">
+	     
+	   
+	     libmd-3
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+            Other
+	  
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libmd/libmd-3.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libpcap/libpcap-27/">
+	     
+	   
+	     libpcap-27
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libpcap/libpcap-27.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libresolv/libresolv-46/">
+	     
+	   
+	     libresolv-46
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libresolv/libresolv-46.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libsecurity_agent/libsecurity_agent-55000/">
+	     
+	   
+	     libsecurity_agent-55000
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libsecurity_agent/libsecurity_agent-55000.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libsecurity_apple_csp/libsecurity_apple_csp-55003/">
+	     
+	   
+	     libsecurity_apple_csp-55003
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libsecurity_apple_csp/libsecurity_apple_csp-55003.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libsecurity_apple_cspdl/libsecurity_apple_cspdl-55000/">
+	     
+	   
+	     libsecurity_apple_cspdl-55000
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libsecurity_apple_cspdl/libsecurity_apple_cspdl-55000.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libsecurity_apple_file_dl/libsecurity_apple_file_dl-55000/">
+	     
+	   
+	     libsecurity_apple_file_dl-55000
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libsecurity_apple_file_dl/libsecurity_apple_file_dl-55000.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libsecurity_apple_x509_cl/libsecurity_apple_x509_cl-55000/">
+	     
+	   
+	     libsecurity_apple_x509_cl-55000
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libsecurity_apple_x509_cl/libsecurity_apple_x509_cl-55000.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libsecurity_apple_x509_tp/libsecurity_apple_x509_tp-55005/">
+	     
+	   
+	     libsecurity_apple_x509_tp-55005
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libsecurity_apple_x509_tp/libsecurity_apple_x509_tp-55005.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libsecurity_asn1/libsecurity_asn1-55000/">
+	     
+	   
+	     libsecurity_asn1-55000
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+	      <a href="/license/mpl/">
+		MPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libsecurity_asn1/libsecurity_asn1-55000.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libsecurity_authorization/libsecurity_authorization-55000/">
+	     
+	   
+	     libsecurity_authorization-55000
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libsecurity_authorization/libsecurity_authorization-55000.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libsecurity_cdsa_client/libsecurity_cdsa_client-55000/">
+	     
+	   
+	     libsecurity_cdsa_client-55000
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libsecurity_cdsa_client/libsecurity_cdsa_client-55000.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libsecurity_cdsa_plugin/libsecurity_cdsa_plugin-55001/">
+	     
+	   
+	     libsecurity_cdsa_plugin-55001
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libsecurity_cdsa_plugin/libsecurity_cdsa_plugin-55001.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libsecurity_cdsa_utilities/libsecurity_cdsa_utilities-55005/">
+	     
+	   
+	     libsecurity_cdsa_utilities-55005
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libsecurity_cdsa_utilities/libsecurity_cdsa_utilities-55005.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libsecurity_cdsa_utils/libsecurity_cdsa_utils-55000/">
+	     
+	   
+	     libsecurity_cdsa_utils-55000
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libsecurity_cdsa_utils/libsecurity_cdsa_utils-55000.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libsecurity_checkpw/libsecurity_checkpw-55000/">
+	     
+	   
+	     libsecurity_checkpw-55000
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libsecurity_checkpw/libsecurity_checkpw-55000.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libsecurity_cms/libsecurity_cms-55002/">
+	     
+	   
+	     libsecurity_cms-55002
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libsecurity_cms/libsecurity_cms-55002.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libsecurity_codesigning/libsecurity_codesigning-55004/">
+	     
+	   
+	     libsecurity_codesigning-55004
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libsecurity_codesigning/libsecurity_codesigning-55004.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libsecurity_cssm/libsecurity_cssm-55000/">
+	     
+	   
+	     libsecurity_cssm-55000
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libsecurity_cssm/libsecurity_cssm-55000.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libsecurity_dotmacdl/libsecurity_dotmacdl-55000/">
+	     
+	   
+	     libsecurity_dotmacdl-55000
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libsecurity_dotmacdl/libsecurity_dotmacdl-55000.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libsecurity_filedb/libsecurity_filedb-55013/">
+	     
+	   
+	     libsecurity_filedb-55013
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libsecurity_filedb/libsecurity_filedb-55013.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libsecurity_filevault/libsecurity_filevault-55000/">
+	     
+	   
+	     libsecurity_filevault-55000
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libsecurity_filevault/libsecurity_filevault-55000.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libsecurity_keychain/libsecurity_keychain-55029/">
+	     
+	   
+	     libsecurity_keychain-55029
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libsecurity_keychain/libsecurity_keychain-55029.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libsecurity_ldap_dl/libsecurity_ldap_dl-55000/">
+	     
+	   
+	     libsecurity_ldap_dl-55000
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libsecurity_ldap_dl/libsecurity_ldap_dl-55000.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libsecurity_manifest/libsecurity_manifest-55000/">
+	     
+	   
+	     libsecurity_manifest-55000
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libsecurity_manifest/libsecurity_manifest-55000.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libsecurity_mds/libsecurity_mds-55000/">
+	     
+	   
+	     libsecurity_mds-55000
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libsecurity_mds/libsecurity_mds-55000.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libsecurity_ocspd/libsecurity_ocspd-55007/">
+	     
+	   
+	     libsecurity_ocspd-55007
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libsecurity_ocspd/libsecurity_ocspd-55007.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libsecurity_pkcs12/libsecurity_pkcs12-55000/">
+	     
+	   
+	     libsecurity_pkcs12-55000
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libsecurity_pkcs12/libsecurity_pkcs12-55000.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libsecurity_sd_cspdl/libsecurity_sd_cspdl-55000/">
+	     
+	   
+	     libsecurity_sd_cspdl-55000
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libsecurity_sd_cspdl/libsecurity_sd_cspdl-55000.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libsecurity_smime/libsecurity_smime-55000/">
+	     
+	   
+	     libsecurity_smime-55000
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+	      <a href="/license/mpl/">
+		MPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libsecurity_smime/libsecurity_smime-55000.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libsecurity_ssl/libsecurity_ssl-55002/">
+	     
+	   
+	     libsecurity_ssl-55002
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libsecurity_ssl/libsecurity_ssl-55002.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libsecurity_utilities/libsecurity_utilities-55015/">
+	     
+	   
+	     libsecurity_utilities-55015
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libsecurity_utilities/libsecurity_utilities-55015.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libsecurityd/libsecurityd-55002/">
+	     
+	   
+	     libsecurityd-55002
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libsecurityd/libsecurityd-55002.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libstdcxx/libstdcxx-52/">
+	     
+	   
+	     libstdcxx-52
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libstdcxx/libstdcxx-52.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libtelnet/libtelnet-9/">
+	     
+	   
+	     libtelnet-9
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+	      <a href="/license/mit/">
+		MIT
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libtelnet/libtelnet-9.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libunwind/libunwind-30/">
+	     
+	   
+	     libunwind-30
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libunwind/libunwind-30.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libutil/libutil-25/">
+	     
+	   
+	     libutil-25
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libutil/libutil-25.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libxml2/libxml2-21.13/">
+	     
+	   
+	     libxml2-21.13
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/mit/">
+		MIT
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libxml2/libxml2-21.13.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/libxslt/libxslt-10.9/">
+	     
+	   
+	     libxslt-10.9
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/mit/">
+		MIT
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/libxslt/libxslt-10.9.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/llvmCore/llvmCore-2358.3/">
+	     
+	   
+	     llvmCore-2358.3
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/llvm/">
+		LLVM
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/llvmCore/llvmCore-2358.3.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/lsof/lsof-48/">
+	     
+	   
+	     lsof-48
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+            Other
+	  
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/lsof/lsof-48.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/lukemftp/lukemftp-13/">
+	     
+	   
+	     lukemftp-13
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/lukemftp/lukemftp-13.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/lukemftpd/lukemftpd-47/">
+	     
+	   
+	     lukemftpd-47
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/lukemftpd/lukemftpd-47.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/mDNSResponder/mDNSResponder-320.5/">
+	     
+	   
+	     mDNSResponder-320.5
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apache/">
+		Apache
+	      </a> &nbsp;
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/mDNSResponder/mDNSResponder-320.5.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/mail_cmds/mail_cmds-25/">
+	     
+	   
+	     mail_cmds-25
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/mail_cmds/mail_cmds-25.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/mailman/mailman-138/">
+	     
+	   
+	     mailman-138
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/mailman/mailman-138.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/man/man-14/">
+	     
+	   
+	     man-14
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/man/man-14.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/memcached/memcached-8/">
+	     
+	   
+	     memcached-8
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/memcached/memcached-8.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/misc_cmds/misc_cmds-31/">
+	     
+	   
+	     misc_cmds-31
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/misc_cmds/misc_cmds-31.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/modemccl/modemccl-25.1/">
+	     
+	   
+	     modemccl-25.1
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/modemccl/modemccl-25.1.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/msdosfs/msdosfs-178/">
+	     
+	   
+	     msdosfs-178
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/msdosfs/msdosfs-178.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/nano/nano-8/">
+	     
+	   
+	     nano-8
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/nano/nano-8.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/nasm/nasm-15/">
+	     
+	   
+	     nasm-15
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/lgpl/">
+		LGPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/nasm/nasm-15.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/ncurses/ncurses-36/">
+	     
+	   
+	     ncurses-36
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/mit/">
+		MIT
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/ncurses/ncurses-36.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/neon/neon-13/">
+	     
+	   
+	     neon-13
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/lgpl/">
+		LGPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/neon/neon-13.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/net_snmp/net_snmp-132/">
+	     
+	   
+	     net_snmp-132
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/net_snmp/net_snmp-132.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/netcat/netcat-9/">
+	     
+	   
+	     netcat-9
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/netcat/netcat-9.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/netinfo/netinfo-384/">
+	     
+	   
+	     netinfo-384
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+	      <a href="/license/sunrpc/">
+		SunRPC
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/netinfo/netinfo-384.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/network_cmds/network_cmds-356.8/">
+	     
+	   
+	     network_cmds-356.8
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/network_cmds/network_cmds-356.8.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/notify/notify-45.3/">
+	     
+	   
+	     notify-45.3
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/notify/notify-45.3.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/ntfs/ntfs-78/">
+	     
+	   
+	     ntfs-78
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/ntfs/ntfs-78.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/ntp/ntp-70/">
+	     
+	   
+	     ntp-70
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+            Other
+	  
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/ntp/ntp-70.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/objc4/objc4-493.9/">
+	     
+	   
+	     objc4-493.9
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/objc4/objc4-493.9.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/pam_modules/pam_modules-126/">
+	     
+	   
+	     pam_modules-126
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/pam_modules/pam_modules-126.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/passwordserver_sasl/passwordserver_sasl-165/">
+	     
+	   
+	     passwordserver_sasl-165
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+            Other
+	  
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/passwordserver_sasl/passwordserver_sasl-165.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/patch_cmds/patch_cmds-16/">
+	     
+	   
+	     patch_cmds-16
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/patch_cmds/patch_cmds-16.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/pcre/pcre-6/">
+	     
+	   
+	     pcre-6
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/pcre/pcre-6.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/pdisk/pdisk-8/">
+	     
+	   
+	     pdisk-8
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+            Other
+	  
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/pdisk/pdisk-8.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/perl/perl-73/">
+	     
+	   
+	     perl-73
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/artistic/">
+		Artistic
+	      </a> &nbsp;
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/perl/perl-73.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/postfix/postfix-229/">
+	     
+	   
+	     postfix-229
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+	      <a href="/license/ibm/">
+		IBM
+	      </a> &nbsp;
+	   
+	      <a href="/license/tls/">
+		TLS
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/postfix/postfix-229.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/ppp/ppp-560.12/">
+	     
+	   
+	     ppp-560.12
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+	      <a href="/license/mit/">
+		MIT
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/ppp/ppp-560.12.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/procmail/procmail-13/">
+	     
+	   
+	     procmail-13
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/artistic/">
+		Artistic
+	      </a> &nbsp;
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/procmail/procmail-13.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/pyOpenSSL/pyOpenSSL-7/">
+	     
+	   
+	     pyOpenSSL-7
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/lgpl/">
+		LGPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/pyOpenSSL/pyOpenSSL-7.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/pyobjc/pyobjc-32/">
+	     
+	   
+	     pyobjc-32
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/mit/">
+		MIT
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/pyobjc/pyobjc-32.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/python/python-56/">
+	     
+	   
+	     python-56
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/python/">
+		Python
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/python/python-56.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/python23/python23-19/">
+	     
+	   
+	     python23-19
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/python/">
+		Python
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/python23/python23-19.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/python_dateutil/python_dateutil-5/">
+	     
+	   
+	     python_dateutil-5
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/python/">
+		Python
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/python_dateutil/python_dateutil-5.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/python_modules/python_modules-26/">
+	     
+	   
+	     python_modules-26
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+            Other
+	  
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/python_modules/python_modules-26.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/remote_cmds/remote_cmds-31/">
+	     
+	   
+	     remote_cmds-31
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/remote_cmds/remote_cmds-31.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/removefile/removefile-21/">
+	     
+	   
+	     removefile-21
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/mit/">
+		MIT
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/removefile/removefile-21.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/rsync/rsync-42/">
+	     
+	   
+	     rsync-42
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+	      <a href="/license/mit/">
+		MIT
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/rsync/rsync-42.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/ruby/ruby-79/">
+	     
+	   
+	     ruby-79
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+	      <a href="/license/lgpl/">
+		LGPL
+	      </a> &nbsp;
+	   
+	      <a href="/license/ruby/">
+		Ruby
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/ruby/ruby-79.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/screen/screen-19/">
+	     
+	   
+	     screen-19
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/screen/screen-19.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/security_authtrampoline/security_authtrampoline-55000/">
+	     
+	   
+	     security_authtrampoline-55000
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/security_authtrampoline/security_authtrampoline-55000.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/security_certificates/security_certificates-55001/">
+	     
+	   
+	     security_certificates-55001
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+            Other
+	  
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/security_certificates/security_certificates-55001.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/security_certtool/security_certtool-55000/">
+	     
+	   
+	     security_certtool-55000
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/security_certtool/security_certtool-55000.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/security_crlrefresh/security_crlrefresh-55000/">
+	     
+	   
+	     security_crlrefresh-55000
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/security_crlrefresh/security_crlrefresh-55000.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/security_dotmac_tp/security_dotmac_tp-55000/">
+	     
+	   
+	     security_dotmac_tp-55000
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/security_dotmac_tp/security_dotmac_tp-55000.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/security_ocspd/security_ocspd-55007/">
+	     
+	   
+	     security_ocspd-55007
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/security_ocspd/security_ocspd-55007.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/security_systemkeychain/security_systemkeychain-55002/">
+	     
+	   
+	     security_systemkeychain-55002
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/security_systemkeychain/security_systemkeychain-55002.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/securityd/securityd-55009/">
+	     
+	   
+	     securityd-55009
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/securityd/securityd-55009.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/shell_cmds/shell_cmds-162/">
+	     
+	   
+	     shell_cmds-162
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/shell_cmds/shell_cmds-162.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/smb/smb-551/">
+	     
+	   
+	     smb-551
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/smb/smb-551.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/srm/srm-7/">
+	     
+	   
+	     srm-7
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/mit/">
+		MIT
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/srm/srm-7.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/subversion/subversion-44/">
+	     
+	   
+	     subversion-44
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/subversion/subversion-44.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/sudo/sudo-60/">
+	     
+	   
+	     sudo-60
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+	      <a href="/license/mit/">
+		MIT
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/sudo/sudo-60.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/swig/swig-6/">
+	     
+	   
+	     swig-6
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/mit/">
+		MIT
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/swig/swig-6.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/syslog/syslog-132/">
+	     
+	   
+	     syslog-132
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/syslog/syslog-132.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/system_cmds/system_cmds-541/">
+	     
+	   
+	     system_cmds-541
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/system_cmds/system_cmds-541.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/system_config/system_config-51/">
+	     
+	   
+	     system_config-51
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/system_config/system_config-51.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/tcl/tcl-95/">
+	     
+	   
+	     tcl-95
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/tcl/">
+		Tcl
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/tcl/tcl-95.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/tcp_wrappers/tcp_wrappers-20/">
+	     
+	   
+	     tcp_wrappers-20
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+            Other
+	  
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/tcp_wrappers/tcp_wrappers-20.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/tcpdump/tcpdump-32/">
+	     
+	   
+	     tcpdump-32
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/tcpdump/tcpdump-32.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/tcsh/tcsh-64/">
+	     
+	   
+	     tcsh-64
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/tcsh/tcsh-64.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/texi2html/texi2html-5/">
+	     
+	   
+	     texi2html-5
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/texi2html/texi2html-5.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/texinfo/texinfo-17.1/">
+	     
+	   
+	     texinfo-17.1
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/texinfo/texinfo-17.1.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/text_cmds/text_cmds-81/">
+	     
+	   
+	     text_cmds-81
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/text_cmds/text_cmds-81.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/tidy/tidy-15.6/">
+	     
+	   
+	     tidy-15.6
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/w3c/">
+		W3C
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/tidy/tidy-15.6.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/top/top-73/">
+	     
+	   
+	     top-73
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/top/top-73.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/usertemplate/usertemplate-82/">
+	     
+	   
+	     usertemplate-82
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/usertemplate/usertemplate-82.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/uucp/uucp-11/">
+	     
+	   
+	     uucp-11
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/gpl/">
+		GPL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/uucp/uucp-11.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/vim/vim-47/">
+	     
+	   
+	     vim-47
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+            Other
+	  
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/vim/vim-47.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/webdavfs/webdavfs-321/">
+	     
+	   
+	     webdavfs-321
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/webdavfs/webdavfs-321.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/xar/xar-45/">
+	     
+	   
+	     xar-45
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/xar/xar-45.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/xelf/xelf-1/">
+	     
+	   
+	     xelf-1
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+            Other
+	  
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/xelf/xelf-1.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/xnu/xnu-1699.22.73/">
+	     
+	   
+	     xnu-1699.22.73
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/apsl/">
+		APSL
+	      </a> &nbsp;
+	   
+	      <a href="/license/bsd/">
+		BSD
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/xnu/xnu-1699.22.73.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/zip/zip-11.1/">
+	     
+	   
+	     zip-11.1
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+            Other
+	  
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/zip/zip-11.1.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/zlib/zlib-37.2/">
+	     
+	   
+	     zlib-37.2
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+	   
+	      <a href="/license/zlib/">
+		zlib
+	      </a> &nbsp;
+	   
+          
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/zlib/zlib-37.2.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+       <tr class="project-row">
+	 <td class="project-updated">
+	   
+	 </td>
+         <td class="project-name " >
+	   
+             
+	       <a href="/source/zsh/zsh-55/">
+	     
+	   
+	     zsh-55
+	   
+	     </a>
+	   
+	 </td>
+	 <td class="project-licenses">
+          
+            Other
+	  
+	 </td>
+	 <td class="project-downloads">
+	   	   
+	    
+	     <a href="/tarballs/zsh/zsh-55.tar.gz">
+	    
+	       <img class="download-icon" src="/static/images/icon_downloads.png" />
+	     </a>
+	    
+	   
+	 </td>
+       </tr>
+     
+      </table>
+     </div>
+ 
+    
+<div class="column last sidebar">
+     <div class="boxheader">
+       <h2>Related Sites</h2>
+     </div>
+
+      <a target="_blank" href="http://developer.apple.com/opensource/">
+	<h5>Open Source Development</h5>
+	<img id="adc-logo" src="/static/images/comein.png" alt="Open Source Development">
+	<p><br/><br/>Documentation and resources for Bonjour, Java, UNIX, and WebKit.</p>
+      </a>
+      <hr/>
+
+      <a target="_blank" href="http://macosforge.org/">
+	<h5>Mac OS Forge</h5>
+	<img id="macosforge-logo" src="/static/images/logo_trans_v1.png" alt="Mac OS Forge">
+	<p><br/><br/>Open development of select Mac OS X projects</p>
+      </a>
+      <hr/>
+
+      <a target="_blank" href="http://developer.apple.com/technology/">
+	<img class="other-logo" src="/static/devimages/icon_tools_sidebar.png" alt="Developer Tools">
+	<h5>
+	  Tools and Technologies
+	</h5>
+	<p><br/><br/>Why you'll love to develop on your Mac</p>
+      </a>
+      <hr/>
+
+
+      <a target="_blank" href="http://www.apple.com/opensource/">
+	<img class="other-logo" src="/static/images/leopardbox.png" />
+	<h5 class="sidebar-header">
+	  Open Source in Mac OS X
+	</h5>
+	<p><br/><br/>Learn about the 200+ open source projects that ship with Mac OS X</p>
+      </a>
+      <hr/>
+
+      <a href="http://developer.apple.com/mac/library/documentation/MacOSX/Conceptual/OSX_Technology_Overview/SystemTechnology/SystemTechnology.html">      
+	<img class="other-logo" src="/static/images/opensource_unix.png" alt="Darwin Technologies" />
+	<h5 class="sidebar-header">
+	  Darwin Technologies
+	</h5>
+	<p><br/><br/>Beneath the easy-to-use interface of Mac OS X is a rock-solid, UNIX foundation.</p>
+      </a>
+    </div>
+
+
+     <div class="cap boxbottom">&nbsp;</div>
+    </div>
+
+  <ol class="release-list-terms">
+    <li>
+      You can also view this project list in the following formats:
+      <a href="/plist/mac-os-x-107.plist">plist</a>, 
+      <a href="/text/mac-os-x-107.txt">text</a>
+    </li>
+
+    
+
+    <li>
+      To determine the specific license terms that apply to a project, look at the 
+      project source code license headers and the actual license included with the project.
+    </li>
+    <li>
+      Please be advised that unless your final product is also open source, incorporating 
+      open source software containing encryption into your product may make it subject to 
+      U.S. and local country import/export laws.  Please consult with your government 
+      agencies prior to exporting your product.  Information about U.S. encryption export 
+      regulations can be found at the 
+      <a href="http://www.bis.doc.gov/index.php/about-bis">Bureau of Industry and Security</a>
+    </li>
+  </ol>
+  </div>
+
+
+
+
+
+<div id="globalfooter" class="gf-980">
+  <p class="gf-buy">Visit the Apple Store <a id="gf-buy-online" href="http://www.apple.com/store/">online</a> (1-800-MY-APPLE), find a <a id="gf-buy-retail" href="http://www.apple.com/retail/">retail</a> location or find a <a id="gf-buy-reseller" href="http://www.apple.com/buy/locator/">reseller</a>.</p>
+
+  
+  <p class="gf-links">
+   <a id="gf-links-contact" href="mailto:opensource@apple.com">Contact Us</a> |
+   <a id="gf-links-contact" href="http://lists.apple.com/">Mailing Lists</a>
+  </p>
+  <p class="gf-sosumi">Copyright &copy; 2010 Apple Inc. All rights reserved. <a id="gf-sosumi-legal" href="http://www.apple.com/legal/">Terms of Use</a> | <a id="gf-sosumi-privacy" href="http://www.apple.com/legal/privacy/">Privacy Policy</a></p>
+</div>
+
+
+</body>
+</html>
