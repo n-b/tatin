@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import json, urllib.request, urllib.error, urllib.parse
 import os, io, tarfile, shutil, subprocess, base64
-import sys, functools
+import sys, functools, inspect
 from bs4 import BeautifulSoup
 
 """----------------------------
@@ -9,7 +9,7 @@ Helpers
 ----------------------------"""
 
 def pretty(collection, indent=0):
-	"""return a pretty-formatted string from a list or a dict"""
+	# return a pretty-formatted string from a list or a dict
 	result = ""
 	if(isinstance(collection,dict)):
 		items = sorted(collection)
@@ -32,7 +32,7 @@ def pretty(collection, indent=0):
 	return result
 
 def compare_versions(v1, v2):
-	"""compare to versions strings"""
+	# compare to versions strings
 	c1 = v1.split('.')
 	c2 = v2.split('.')
 	for i in range(0,min(len(c1),len(c2))):
@@ -48,7 +48,7 @@ Fetch Metadata
 ----------------------------"""
 
 def soup_from_path(path, use_cache=True):
-	"""Fetch Helper"""
+	# Fetch Helper
 	base_url = "http://opensource.apple.com"
 	try:
 		cachePath = '_tatin/cache'+path.replace('/','_')
@@ -71,7 +71,7 @@ def soup_from_path(path, use_cache=True):
 		return None
 
 def parse_products_and_releases(soup):
-	"""Get products and releases"""
+	# Get products and releases
 	products_releases = {}
 	for product_tag in soup.find_all(class_ = "product release-list"):
 		product_name = product_tag.find('h3', class_='product-name').string
@@ -83,7 +83,7 @@ def parse_products_and_releases(soup):
 	return products_releases
 
 def fetch_products_and_releases():
-	"""Fetch products and releases"""
+	# Fetch products and releases
 	return parse_products_and_releases(soup_from_path(""))
 
 
@@ -97,7 +97,7 @@ def special_tarball_path(project,version):
 		return None
 	
 def parse_release_versions_and_tarballs(release_soup):
-	"""Parse releases versions and tarballs"""
+	# Parse releases versions and tarballs
 	release_project_versions = {}
 	release_projects_tarballs = {}
 	for version_tag in release_soup.find_all('tr', class_='project-row'):
@@ -121,7 +121,7 @@ def parse_release_versions_and_tarballs(release_soup):
 	return release_project_versions, release_projects_tarballs
 
 def fetch_projects_versions_and_tarballs(products_releases):
-	"""Fetch releases versions and tarballs"""
+	# Fetch releases versions and tarballs
 	products_releases_versions = products_releases
 	projects_tarballs = {}
 	for product in sorted(products_releases_versions):
@@ -144,7 +144,7 @@ def fetch_projects_versions_and_tarballs(products_releases):
 
 
 def parse_all_projects(source_soup):
-	"""Parse all projects from /source"""
+	# Parse all projects from /source
 	projects = []
 	for tag in source_soup.find('div', id='ossmain').table.find_all\
 		(lambda tag: tag.name=='a' and tag.parent.name=='td' and tag.string==tag['href']):
@@ -153,7 +153,7 @@ def parse_all_projects(source_soup):
 	return projects
 
 def fetch_unreferenced_projects(projects_tarballs):
-	"""Fetch unreferenced projects from /source """
+	# Fetch unreferenced projects from /source
 	allprojects = parse_all_projects(soup_from_path('/source/'))
 	for project in allprojects:
 		if project not in projects_tarballs:
@@ -162,7 +162,7 @@ def fetch_unreferenced_projects(projects_tarballs):
 	return projects_tarballs
 
 def parse_all_verisions_of_project(project, project_soup):
-	"""Get all versions of a project"""
+	# Get all versions of a project
 	versions = []
 	if(project_soup is not None):
 		for version_tag in project_soup.find('div', id='ossmain').table.find_all(lambda tag: tag.name=='a' and tag.parent.name=='td' and tag.string==tag['href']):
@@ -178,7 +178,7 @@ def parse_all_verisions_of_project(project, project_soup):
 	return versions
 
 def fetch_unreferenced_versions(projects_tarballs):
-	""" Fetch unreferenced versions from each project page"""
+	#Fetch unreferenced versions from each project page
 	for project in sorted(projects_tarballs):
 # 		print('Fetching versions for '+project)
 		versions = parse_all_verisions_of_project(project, soup_from_path('/source/'+project+'/'))
@@ -220,31 +220,37 @@ def load_db():
 		projects_tarballs = json.load(open('projects_tarballs.json', 'r'))
 
 def list_products():
+	"""List all the products"""
 	load_db()
 	return sorted(products_releases_versions.keys())
 
 def list_product_releases(product):
+	"""List all the releases of a product"""
 	load_db()
 	releases = []
 	for release in products_releases_versions[product]:
 		releases.append(release['name'])
 	return releases
 
-def list_release_versions(product,release_):
+def list_release_versions(product,release):
+	"""List all the project versions used by a release of a product"""
 	load_db()
-	for release in products_releases_versions[product]:
-		if(release['name']==release_):
-			return release['projects_versions'] 
+	for release_info in products_releases_versions[product]:
+		if(release_info['name']==release):
+			return release_info['projects_versions'] 
 
 def list_projects():
+	"""List all the projects"""
 	load_db()
 	return sorted(projects_tarballs.keys())
 
 def list_project_versions(project):
+	"""List all the versions of a project"""
 	load_db()
 	return projects_tarballs[project]
 
 def list_version_releases(project,version):
+	"""List the product releases using a specific project version"""
 	load_db()
 	products_releases = []
 	for product in list_products():
@@ -255,25 +261,18 @@ def list_version_releases(project,version):
 					products_releases.append({'product':product,'release':release})
 	return products_releases
 
-# for version in sorted(list_project_versions(sys.argv[1]),key=functools.cmp_to_key(compare_versions)):
-# 	tags = []
-# 	for use in list_version_releases(sys.argv[1],version):
-# 		tag = use['product'] + '-' + use['release']
-# 		tags.append(tag.replace(' ','_'))
-# 	print(version + '\t' + '\t'.join(tags))
-
 """----------------------------
 Fetch tarballs
 ----------------------------"""
 
 def git_init(repo_dir):
-	"""helper for git init"""
+	# helper for git init
 	subprocess.Popen(['git', 'init'], cwd=repo_dir, stdout=subprocess.DEVNULL).wait()
 	subprocess.Popen(['git', 'config', 'user.email', 'opensource@apple.com'], cwd=repo_dir, stdout=subprocess.DEVNULL).wait()
 	subprocess.Popen(['git', 'config', 'user.name', 'opensource.apple.com'], cwd=repo_dir, stdout=subprocess.DEVNULL).wait()
 
 def git_commit_all(repo_dir, message, date, tags):
-	"""helper for git commit"""
+	# helper for git commit
 	env = os.environ
 	env['GIT_COMMITTER_DATE']=date
 	env['GIT_AUTHOR_DATE']=date
@@ -283,6 +282,7 @@ def git_commit_all(repo_dir, message, date, tags):
 		subprocess.Popen(['git', 'tag', tag.replace(' ','_')], env=env, cwd=repo_dir, stdout=subprocess.DEVNULL).wait()
 
 def git_push_to_github(repo_dir, username, password):
+	# helper for github API and git push
 	repo_name = os.path.basename(repo_dir)
 	try:
 		uri = 'https://api.github.com/orgs/opensource-apple-repos/repos'
@@ -298,7 +298,7 @@ def git_push_to_github(repo_dir, username, password):
 	subprocess.Popen(['git', 'push', '--tags', '-f'], cwd=repo_dir, stdout=subprocess.DEVNULL).wait()
 
 def fetch_version_tarball(project,version,url):
-	"""download a tarball, extract it in the repo and commit it"""
+	# download a tarball, extract it in the repo and commit it
 	print(' version '+version)
 	for entry in os.listdir(project):
 		if(os.path.isdir(project+'/'+entry)):
@@ -328,6 +328,7 @@ def fetch_version_tarball(project,version,url):
 	git_commit_all(project, version, last_modified, tags)
 
 def fetch_project_tarballs(project):
+	"""Fetch all the tarballs for a project and create a local git repo"""
 	print('Fetching '+project)
 	shutil.rmtree(project,ignore_errors=True)
 	os.makedirs(project)
@@ -337,8 +338,51 @@ def fetch_project_tarballs(project):
 		fetch_version_tarball(project, version, versions[version])
 
 def fetch_push_and_cleanup_project(project):
+	"""Fetch all the tarballs for a project, create a local git repo, push it on github and erase the local repository"""
 	fetch_project_tarballs(project)
 	git_push_to_github(project, os.environ['GITHUB_USER'], os.environ['GITHUB_KEY'])
 	shutil.rmtree(project,ignore_errors=True)
 
-fetch_project_tarballs(sys.argv[1])
+"""----------------------------
+main
+----------------------------"""
+
+def usage(command):
+	func = globals()[command]
+	params = inspect.getargspec(func).args
+	return func.__name__+' '+str(params)+' : '+func.__doc__
+
+def main():
+	commands = [
+				'fetch_metadata',
+				'list_products',
+				'list_product_releases',
+				'list_release_versions',
+				'list_projects',
+				'list_project_versions',
+				'list_version_releases',
+				'fetch_project_tarballs',
+				'fetch_push_and_cleanup_project'
+				]
+	args = sys.argv
+	if(len(args)<2 or args[1] not in commands ):
+		print('Usage:')
+		for command in commands:
+			print(usage(command))
+		return -1
+	if(len(args)>=2):
+		command = args[1]
+		func = globals()[command]
+		func_params = inspect.getargspec(func).args
+		if(len(args)-2<len(func_params)):
+			print(usage(command))
+		else:
+			command_args = args[2:2+len(func_params)]
+# 			print('calling '+func.__name__+' with args: '+str(command_args))
+			res = func(*command_args)
+			if(isinstance(res,list) or isinstance(res,dict)):
+				print(pretty(res))
+			elif(isinstance(res,str)):
+				print(res)
+
+main()
