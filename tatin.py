@@ -300,6 +300,9 @@ def git_push_to_github(repo_dir, username, password):
 def fetch_version_tarball(project,version,url):
 	# download a tarball, extract it in the repo and commit it
 	print(' version '+version)
+	if(url==''):
+		url = standard_tarball_path(project,version)
+		print(' using standard url '+url)
 	for entry in os.listdir(project):
 		if(os.path.isdir(project+'/'+entry)):
 			if(entry != '.git'):
