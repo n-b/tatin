@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import json, urllib.request, urllib.error, urllib.parse
-import os, io, tarfile, shutil, subprocess
+import os, io, tarfile, shutil, subprocess, base64
 import sys, functools
 from bs4 import BeautifulSoup
 
@@ -282,6 +282,21 @@ def git_commit_all(repo_dir, message, date, tags):
 	for tag in tags:
 		subprocess.Popen(['git', 'tag', tag.replace(' ','_')], env=env, cwd=repo_dir, stdout=subprocess.DEVNULL).wait()
 
+def git_push_to_github(repo_dir, username, password):
+	repo_name = os.path.basename(repo_dir)
+	try:
+		uri = 'https://api.github.com/orgs/opensource-apple-repos/repos'
+		data = bytes('{"name":"'+repo_name+'"}','utf-8')
+		headers = {'Authorization': 'Basic '+base64.b64encode(bytes(username+':'+password,'utf-8')).decode('ascii')}
+		urllib.request.urlopen(urllib.request.Request(uri, data, headers)).read()
+	except urllib.error.HTTPError as e:
+		if(e.code != 422):
+			raise e
+	
+	subprocess.Popen(['git', 'remote', 'add', 'origin', 'git@github.com:opensource-apple-repos/'+repo_name+'.git'], cwd=repo_dir, stdout=subprocess.DEVNULL).wait()
+	subprocess.Popen(['git', 'push', 'origin', 'master', '-f'], cwd=repo_dir, stdout=subprocess.DEVNULL).wait()
+	subprocess.Popen(['git', 'push', '--tags', '-f'], cwd=repo_dir, stdout=subprocess.DEVNULL).wait()
+
 def fetch_version_tarball(project,version,url):
 	"""download a tarball, extract it in the repo and commit it"""
 	print(' version '+version)
@@ -321,7 +336,9 @@ def fetch_project_tarballs(project):
 	for version in sorted(versions,key=functools.cmp_to_key(compare_versions)):
 		fetch_version_tarball(project, version, versions[version])
 
-def fetch_all_projects_tarballs():
-	for project in list_projects():
-		fetch_project_tarballs(project)
+def fetch_push_and_cleanup_project(project):
+	fetch_project_tarballs(project)
+	git_push_to_github(project, os.environ['GITHUB_USER'], os.environ['GITHUB_KEY'])
+	shutil.rmtree(project,ignore_errors=True)
+
 fetch_project_tarballs(sys.argv[1])
