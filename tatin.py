@@ -283,6 +283,7 @@ def git_commit_all(repo_dir, message, date, tags):
 
 def git_push_to_github(repo_dir, username, password):
 	# helper for github API and git push
+	print(' pushing %s' % repo_dir)
 	repo_name = os.path.basename(repo_dir)
 	try:
 		uri = 'https://api.github.com/orgs/opensource-apple-repos/repos'
@@ -294,12 +295,17 @@ def git_push_to_github(repo_dir, username, password):
 			raise e
 	
 	subprocess.Popen(['git', 'remote', 'add', 'origin', 'git@github.com:opensource-apple-repos/'+repo_name+'.git'], cwd=repo_dir, stdout=subprocess.DEVNULL).wait()
-	subprocess.Popen(['git', 'push', 'origin', 'master', '-f'], cwd=repo_dir, stdout=subprocess.DEVNULL).wait()
-	subprocess.Popen(['git', 'push', '--tags', '-f'], cwd=repo_dir, stdout=subprocess.DEVNULL).wait()
+	subprocess.Popen(['git', 'push', 'origin', 'master', '-f'], cwd=repo_dir, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL).wait()
+	subprocess.Popen(['git', 'push', '--tags', '-f'], cwd=repo_dir, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL).wait()
 
 def fetch_version_tarball(project,version,url):
 	# download a tarball, extract it in the repo and commit it
-	print(' version '+version)
+	tags = []
+	for use in list_version_releases(project,version):
+		tag = use['product'] + '-' + use['release']
+		tags.append(tag.replace(' ','_'))
+	tags = sorted(tags,key=functools.cmp_to_key(compare_versions))
+	print(' version '+version+' (used in '+str(len(tags))+' releases)')
 	if(url==''):
 		url = standard_tarball_path(project,version)
 		print(' using standard url '+url)
@@ -323,20 +329,15 @@ def fetch_version_tarball(project,version,url):
 				outfile.write(tar.extractfile(member).read())
 	
 	last_modified = response.headers.get('Last-Modified')
-	tags = []
-	for use in list_version_releases(project,version):
-		tag = use['product'] + '-' + use['release']
-		tags.append(tag.replace(' ','_'))
-	tags = sorted(tags,key=functools.cmp_to_key(compare_versions))
 	git_commit_all(project, version, last_modified, tags)
 
 def fetch_project_tarballs(project):
 	"""Fetch all the tarballs for a project and create a local git repo"""
-	print('Fetching '+project)
 	shutil.rmtree(project,ignore_errors=True)
 	os.makedirs(project)
 	git_init(project)
 	versions = list_project_versions(project)
+	print(' '+project+' ('+str(len(versions))+' versions)')
 	for version in sorted(versions,key=functools.cmp_to_key(compare_versions)):
 		fetch_version_tarball(project, version, versions[version])
 
@@ -345,6 +346,19 @@ def fetch_push_and_cleanup_project(project):
 	fetch_project_tarballs(project)
 	git_push_to_github(project, os.environ['GITHUB_USER'], os.environ['GITHUB_KEY'])
 	shutil.rmtree(project,ignore_errors=True)
+
+def auto():
+	try:
+		projects_auto = json.load(open('projects_auto.json', 'r'))
+	except FileNotFoundError:
+		projects_auto = {project:False for project in list_projects()}
+	all_projects = sorted(projects_auto.keys())
+	for project in all_projects:
+		if(projects_auto[project] == False):
+			print(project + ' ('+ str(all_projects.index(project)) +'/'+ str(len(all_projects)) +')')
+			fetch_push_and_cleanup_project(project)
+			projects_auto[project] = True
+			json.dump(projects_auto, open('projects_auto.json', 'w'), sort_keys=True,indent=2)
 
 """----------------------------
 main
@@ -365,7 +379,8 @@ def main():
 				'list_project_versions',
 				'list_version_releases',
 				'fetch_project_tarballs',
-				'fetch_push_and_cleanup_project'
+				'fetch_push_and_cleanup_project',
+				'auto'
 				]
 	args = sys.argv
 	if(len(args)<2 or args[1] not in commands ):
@@ -389,3 +404,4 @@ def main():
 				print(res)
 
 main()
+
