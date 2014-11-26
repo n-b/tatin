@@ -161,7 +161,7 @@ def fetch_unreferenced_projects(projects_tarballs):
 			projects_tarballs[project] = {}
 	return projects_tarballs
 
-def parse_all_verisions_of_project(project, project_soup):
+def parse_all_versions_of_project(project, project_soup):
 	# Get all versions of a project
 	versions = []
 	if(project_soup is not None):
@@ -181,7 +181,7 @@ def fetch_unreferenced_versions(projects_tarballs):
 	#Fetch unreferenced versions from each project page
 	for project in sorted(projects_tarballs):
 # 		print('Fetching versions for '+project)
-		versions = parse_all_verisions_of_project(project, soup_from_path('/source/'+project+'/'))
+		versions = parse_all_versions_of_project(project, soup_from_path('/source/'+project+'/'))
 		for version in versions:
 			if version not in projects_tarballs[project]:
 				print('--- '+project+' version: '+version+' Unreferenced in product releases')
