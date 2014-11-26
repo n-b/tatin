@@ -309,6 +309,8 @@ def fetch_version_tarball(project,version,url):
 	if(url==''):
 		url = standard_tarball_path(project,version)
 		print(' using standard url '+url)
+	if(not url.startswith('http://')):
+		url = 'http://opensource.apple.com'+url
 	for entry in os.listdir(project):
 		if(os.path.isdir(project+'/'+entry)):
 			if(entry != '.git'):
@@ -316,7 +318,14 @@ def fetch_version_tarball(project,version,url):
 		else:
 			os.remove(project+'/'+entry)
 	
-	response = urllib.request.urlopen('http://opensource.apple.com'+url)
+	try:
+		response = urllib.request.urlopen(url)
+	except urllib.error.HTTPError as e:
+		if(e.code == 404):
+			print("tarball not found at "+url)
+			return
+		else:
+			raise e
 	tar = tarfile.open(fileobj=io.BytesIO(response.read()))
 	for member in tar.getmembers():
 		if(not member.isdir()):
@@ -325,8 +334,13 @@ def fetch_version_tarball(project,version,url):
 			name = remove_prefix(member.name,project+'-'+version+'/') 
 			fullpath = project+'/'+name
 			os.makedirs(os.path.dirname(fullpath),exist_ok=True)
-			with open(fullpath, "wb") as outfile:
-				outfile.write(tar.extractfile(member).read())
+			try:
+				memberfile = tar.extractfile(member)
+			except:
+				None
+			if(memberfile):
+				open(fullpath, "wb").write(memberfile.read())
+					
 	
 	last_modified = response.headers.get('Last-Modified')
 	git_commit_all(project, version, last_modified, tags)
