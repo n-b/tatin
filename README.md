@@ -2,11 +2,9 @@
 
 ## Create git clones of opensource.apple.com
 
+`tatin.py` is a small script that scraps all the projects from opensource.apple.com, downloads all the tarballs and recreates git repositories.
+
 ![](objc4.png)
-
-`tatin.py` is a small-ish script that scraps all the projects from opensource.apple.com, downloads all the tarballs and recreates a git repository.
-
-(Warning: I am a total Python noob. Don’t look if you don’t want to be horrified. On the other hand, pull requests are welcome.)
 
 The repositories are available at 
 
@@ -23,6 +21,8 @@ There are 509 projects total, listed at http://opensource.apple.com/source/. Som
  * The “Modified-At” returned by opensource.apple.com when requesting the tarballs is _relatively_ coherent after 2010. (The epoch of opensource.apple.com seems to be the 5th of February 2009.) This date is used as the GIT_AUTHOR_DATE and GIT_COMMITTER_DATE. [^git]
  * Additionally, the git user is set to `opensource.apple.com <opensource@apple.com>`. By setting this and the commit/author dates, the commit hashes stay the same when a repository is recreated from zero.
 * creates a repository at `github.com/unofficial-opensource-apple/<project>`
+
+_(Warning: it’s written in Python and I am a total Python noob. On the other hand, pull requests are welcome.)_
 
 GitX does a decent job to quicky look at the history of a repo. If you’d rather use the CLI, this format is the best I’ve found so far.
 
