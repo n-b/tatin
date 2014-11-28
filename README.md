@@ -28,7 +28,7 @@ Here’s what the objc4 repository looks like:
 
 Or if you’d rather use the CLI:
 
-``
+```
 ~/Documents/bazar/tatin/objc4 (master) $ git log --pretty=format:"%C(bold)%s %C(dim)%ci%Creset%d"
 646 2014-10-30 20:55:50 +0000 (HEAD, tag: OS_X-10.10, origin/master, origin/HEAD, master)
 551.1 2013-10-29 00:21:36 +0000 (tag: OS_X-10.9.5, tag: OS_X-10.9.4, tag: OS_X-10.9.3, tag: OS_X-10.9.2, tag: OS_X-10.9.1, tag: OS_X-10.9)
