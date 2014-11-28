@@ -2,6 +2,8 @@
 
 ## Create git clones of opensource.apple.com
 
+![](objc4.png)
+
 `tatin.py` is a small-ish script that scraps all the projects from opensource.apple.com, downloads all the tarballs and recreates a git repository.
 
 (Warning: I am a total Python noob. Don’t look if you don’t want to be horrified. On the other hand, pull requests are welcome.)
@@ -22,11 +24,7 @@ There are 509 projects total, listed at http://opensource.apple.com/source/. Som
  * Additionally, the git user is set to `opensource.apple.com <opensource@apple.com>`. By setting this and the commit/author dates, the commit hashes stay the same when a repository is recreated from zero.
 * creates a repository at `github.com/unofficial-opensource-apple/<project>`
 
-Here’s what the objc4 repository looks like:
-
-![](objc4.png)
-
-Or if you’d rather use the CLI:
+GitX does a decent job to quicky look at the history of a repo. If you’d rather use the CLI, this format is the best I’ve found so far.
 
 ```
 ~/Documents/bazar/tatin/objc4 (master) $ git log --pretty=format:"%C(bold)%s %C(dim)%ci%Creset%d"
